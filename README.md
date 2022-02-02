@@ -1,4 +1,6 @@
-# vue-site
+# Mapping the University
+
+This is the project website for Mapping the University.
 
 ## Project setup
 ```
