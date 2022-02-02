@@ -4,18 +4,18 @@
     <q-header bordered class="bg-green-9 text-white" height-hint="98">
       <q-toolbar>
         <q-toolbar-title>
-          <q-avatar>
+          <!-- <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-          </q-avatar>
+          </q-avatar> -->
           <strong>Mapping the University</strong>
         </q-toolbar-title>
       </q-toolbar>
 
       <q-tabs align="left">
-        <q-route-tab to="/page1" label="Home" />
-        <q-route-tab to="/page2" label="Maps" />
-        <q-route-tab to="/page3" label="Data" />
-        <q-route-tab to="/page4" label="About" />
+        <q-route-tab to="/home" label="Home" />
+        <q-route-tab to="/maps" label="Maps" />
+        <q-route-tab to="/data" label="Data" />
+        <q-route-tab to="/about" label="About" />
       </q-tabs>
     </q-header>
 
@@ -23,7 +23,6 @@
       <router-view />
 
         <div id="map" />
-
 
     </q-page-container>
 
