@@ -4,9 +4,9 @@
     <q-header bordered class="bg-green-9 text-white" height-hint="98">
       <q-toolbar>
         <q-toolbar-title>
-          <!-- <q-avatar>
+          <q-avatar>
             <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-          </q-avatar> -->
+          </q-avatar>
           <strong>Mapping the University</strong>
         </q-toolbar-title>
       </q-toolbar>
@@ -18,6 +18,38 @@
         <q-route-tab to="/about" label="About" />
       </q-tabs>
     </q-header>
+
+    <q-drawer 
+      :width="450" 
+      show-if-above 
+      v-model="leftDrawerOpen"
+      side="left" 
+      elevated
+    >
+      <div class="narrative">
+        <h3>Introduction</h3>
+        <p>Whatever put a bird on it cray pour-over selfies tbh, yr man bun kickstarter <a href="">messenger bag ramps pickled</a> gentrify everyday carry meggings. Bitters poke tote bag tumeric 3 wolf moon twee. Jianbing gastropub subway tile, raclette +1 stumptown shabby chic seitan vape vice chartreuse humblebrag scenester flexitarian. Beard try-hard offal, tacos lyft hella occupy edison bulb selvage 8-bit gentrify lumbersexual kombucha.</p>
+        <p>Leggings hot chicken brunch cornhole YOLO farm-to-table master cleanse forage vinyl yuccie sustainable. <a href="">Tacos typewriter brooklyn</a>, sustainable chambray brunch cliche etsy put a bird on it adaptogen vaporware pinterest man braid cold-pressed bicycle rights. Lomo banjo meh, umami food truck you probably haven't heard of them semiotics kogi ugh. Migas actually tumblr dreamcatcher la croix ugh vinyl ethical sriracha raw denim jean shorts lo-fi.</p>
+        
+        <div class="q-pa-md">
+            <q-img
+              src="./assets/images/AerialViewCampus-1960-1969.jpg"
+              :fit="fill"
+            >
+            <template v-slot:loading>
+              <div class="text-subtitle1 text-black">
+                Loading...
+              </div>
+            </template>
+            </q-img>
+        </div>
+
+        <p>Cronut ennui tote bag, before they sold out kitsch vinyl hashtag swag ugh poutine vice activated charcoal. Knausgaard fixie semiotics pour-over, direct trade jean shorts dreamcatcher mustache. Venmo tousled 90's, artisan poutine blog gentrify vaporware fashion axe you probably haven't heard of them. Blue bottle ramps post-ironic single-origin coffee fixie hoodie chambray authentic iPhone. Sustainable literally pabst af. Asymmetrical umami deep v selfies enamel pin.</p>
+        
+        <h4>Subtitle</h4>
+        <p>Occupy tumeric hashtag, next level health goth PBR&B meditation. Blue bottle kale chips synth, cold-pressed unicorn occupy ennui pickled humblebrag four dollar toast wayfarers glossier cronut. Banjo subway tile 8-bit fam. Twee stumptown +1, DIY af brooklyn unicorn hashtag poutine photo booth distillery chambray. Live-edge fashion axe air plant banh mi yr literally portland squid distillery cardigan. Retro lyft venmo, sriracha enamel pin cliche raclette pok pok keytar distillery activated charcoal pug. 90's man braid vape farm-to-table.</p>
+      </div>
+    </q-drawer>
 
     <q-page-container>
       <router-view />
