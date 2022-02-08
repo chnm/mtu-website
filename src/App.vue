@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh lpR fFf">
 
-    <q-header bordered class="bg-green-9 text-white" height-hint="98">
+    <q-header bordered class="bg-green-2 text-black" height-hint="98">
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
@@ -28,7 +28,7 @@
     >
       <div class="narrative">
         <h3>Introduction</h3>
-        <p>Whatever put a bird on it cray pour-over selfies tbh, yr man bun kickstarter <a href="">messenger bag ramps pickled</a> gentrify everyday carry meggings. Bitters poke tote bag tumeric 3 wolf moon twee. Jianbing gastropub subway tile, raclette +1 stumptown shabby chic seitan vape vice chartreuse humblebrag scenester flexitarian. Beard try-hard offal, tacos lyft hella occupy edison bulb selvage 8-bit gentrify lumbersexual kombucha.</p>
+        <p><span class="dropcap">W</span>hatever put a bird on it cray pour-over selfies tbh, yr man bun kickstarter <a href="">messenger bag ramps pickled</a> gentrify everyday carry meggings. Bitters poke tote bag tumeric 3 wolf moon twee. Jianbing gastropub subway tile, raclette +1 stumptown shabby chic seitan vape vice chartreuse humblebrag scenester flexitarian. Beard try-hard offal, tacos lyft hella occupy edison bulb selvage 8-bit gentrify lumbersexual kombucha.</p>
         <p>Leggings hot chicken brunch cornhole YOLO farm-to-table master cleanse forage vinyl yuccie sustainable. <a href="">Tacos typewriter brooklyn</a>, sustainable chambray brunch cliche etsy put a bird on it adaptogen vaporware pinterest man braid cold-pressed bicycle rights. Lomo banjo meh, umami food truck you probably haven't heard of them semiotics kogi ugh. Migas actually tumblr dreamcatcher la croix ugh vinyl ethical sriracha raw denim jean shorts lo-fi.</p>
         
         <div class="q-pa-md">
@@ -64,7 +64,8 @@
             <div class="logos">
                 <a href="https://rrchnm.org/"><img class="rrchnm-logo" src="https://religiousecologies.org/img/rrchnm-logo.png" alt="Roy Rosenzweig Center for History and New Media logo"></a>
                 <a href="https://www2.gmu.edu/"><img class="gmu-logo" src="https://religiousecologies.org/img/gmu-logo.png" alt="George Mason University logo"></a>
-          </div>
+            </div>
+            <p>DOI: ####</p>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
@@ -87,9 +88,10 @@ export default {
             const map = new mapboxgl.Map({
                 container: "map",
                 style: "mapbox://styles/mapbox/streets-v11",
-                center: [-77.311526, 38.829599],
+                center: [-77.308044, 38.829599],
                 zoom: 15
             });
+
             map.on('load', () => {
                 // load a layer 
                 map.addSource('gmu', {
@@ -136,6 +138,6 @@ export default {
 
 <style>
 #map {
-    height: 100vh;
+    height: 80vh;
 }
 </style>

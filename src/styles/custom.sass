@@ -1,7 +1,34 @@
 // Custom styles
 
+
+body 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+
 .narrative 
     padding: 1rem
+
+.narrative a, .narrative a:visited
+    color: $green-7
+    margin: 0
+    padding: 0
+    vertical-align: baseline
+    background: 0 0
+    transition: all .2s ease
+    text-decoration-thickness: .1em
+    text-decoration-width: .1em
+
+    &:hover
+        text-decoration-thickness: .15em
+        text-decoration-width: .15em
+
+.narrative p
+    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif
+    line-height: 1.45
+    color: $dark
+
+footer p 
+    font-size: .8rem
 
 footer .logos 
     display: flex
@@ -17,3 +44,11 @@ footer .logos img
 footer .logos img.gmu-logo
     width: 80px
     margin-top: 0
+
+.dropcap
+    float: left 
+    padding: 0px
+    font-size: 90px
+    line-height: 0px
+    margin-top: 28px
+    height: 32px
