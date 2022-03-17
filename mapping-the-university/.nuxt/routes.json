@@ -1,0 +1,20 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/Users/jheppler/Dropbox/30-39 Projects/30.06 CHNM/Projects/Mapping the University/mtu-website-old/mapping-the-university/pages/inspire.vue",
+    "chunkName": "pages/inspire"
+  },
+  {
+    "name": "map",
+    "path": "/map",
+    "component": "/Users/jheppler/Dropbox/30-39 Projects/30.06 CHNM/Projects/Mapping the University/mtu-website-old/mapping-the-university/pages/map.vue",
+    "chunkName": "pages/map"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/jheppler/Dropbox/30-39 Projects/30.06 CHNM/Projects/Mapping the University/mtu-website-old/mapping-the-university/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
