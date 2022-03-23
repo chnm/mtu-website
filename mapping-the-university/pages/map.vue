@@ -2,13 +2,13 @@
   <div>
     <v-app id="va-maps">
       <v-navigation-drawer
-        :width="425"
+        :width="540"
         app
       >
         <v-card-text class="black--text blue-grey lighten-5">
           <div class="narrative">
             <h1>Introduction</h1>
-            <p><span class="dropcap">W</span>hatever put a bird on it cray pour-over selfies tbh, yr man bun kickstarter <a href="">messenger bag ramps pickled</a> gentrify everyday carry meggings. Bitters poke tote bag tumeric 3 wolf moon twee. Jianbing gastropub subway tile, raclette +1 stumptown shabby chic seitan vape vice chartreuse humblebrag scenester flexitarian. Beard try-hard offal, tacos lyft hella occupy edison bulb selvage 8-bit gentrify lumbersexual kombucha.</p>
+            <p>Whatever put a bird on it cray pour-over selfies tbh, yr man bun kickstarter <a href="">messenger bag ramps pickled</a> gentrify everyday carry meggings. Bitters poke tote bag tumeric 3 wolf moon twee. Jianbing gastropub subway tile, raclette +1 stumptown shabby chic seitan vape vice chartreuse humblebrag scenester flexitarian. Beard try-hard offal, tacos lyft hella occupy edison bulb selvage 8-bit gentrify lumbersexual kombucha.</p>
             <p>Leggings hot chicken brunch cornhole YOLO farm-to-table master cleanse forage vinyl yuccie sustainable. <a href="">Tacos typewriter brooklyn</a>, sustainable chambray brunch cliche etsy put a bird on it adaptogen vaporware pinterest man braid cold-pressed bicycle rights. Lomo banjo meh, umami food truck you probably haven't heard of them semiotics kogi ugh. Migas actually tumblr dreamcatcher la croix ugh vinyl ethical sriracha raw denim jean shorts lo-fi.</p>
 
             <div class="q-pa-md">
@@ -29,6 +29,9 @@
                   </v-row>
                 </template>
               </v-img>
+              <div :class="text-caption">
+                Sample caption for the image.
+              </div>
             </div>
 
             <p>Cronut ennui tote bag, before they sold out kitsch vinyl hashtag swag ugh poutine vice activated charcoal. Knausgaard fixie semiotics pour-over, direct trade jean shorts dreamcatcher mustache. Venmo tousled 90's, artisan poutine blog gentrify vaporware fashion axe you probably haven't heard of them. Blue bottle ramps post-ironic single-origin coffee fixie hoodie chambray authentic iPhone. Sustainable literally pabst af. Asymmetrical umami deep v selfies enamel pin.</p>
@@ -51,31 +54,6 @@
         <v-toolbar-title>Mapping the University</v-toolbar-title>
 
         <v-spacer />
-
-        <v-menu
-          left
-          bottom
-        >
-          <template #activator="{ on, attrs }">
-            <v-btn
-              icon
-              v-bind="attrs"
-              v-on="on"
-            >
-              <v-icon>mdi-dots-vertical</v-icon>
-            </v-btn>
-          </template>
-
-          <v-list>
-            <v-list-item
-              v-for="n in 5"
-              :key="n"
-              @click="() => {}"
-            >
-              <v-list-item-title>Option {{ n }}</v-list-item-title>
-            </v-list-item>
-          </v-list>
-        </v-menu>
       </v-app-bar>
       <v-main
         fluid
@@ -150,6 +128,8 @@ export default {
             'fill-opacity': 0.8
           }
         })
+        // disable map zoom when using scroll
+        this.map.scrollZoom.disable()
       })
     }
   }
