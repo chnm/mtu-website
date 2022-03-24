@@ -1,1 +1,31 @@
-{"name":"mapping-the-university","scripts":{"dev":"nuxt"},"dependencies":{"nuxt":"^2.15.8"}}
+{
+  "name": "mtu-website",
+  "version": "0.3.0",
+  "description": "Website and visualizations for the Mapping the University project at RRCHNM.",
+  "private": true,
+  "scripts": {
+    "dev": "hugo serve --disableFastRender",
+    "build": "hugo build"
+  },
+  "keywords": [
+    "digital humanities",
+    "spatial history"
+  ],
+  "author": "Roty Rosenzweig Center for History and New Media",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "browser-sync": "^2.27.9"
+  },
+  "dependencies": {
+    "@observablehq/plot": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "d3": "^7.3.0",
+    "mapbox-gl": "^2.7.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-purgecss": "^2.0.3",
+    "tailwindcss": "^3.0.23"
+  }
+}

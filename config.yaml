@@ -1,0 +1,16 @@
+baseURL: 'https://mtu.rrchnm.org'
+languageCode: 'en-us'
+description: 'Mapping the University is...'
+title: 'Mapping the University'
+
+permalinks:
+  blog: "/:section/:slug/"
+  page: "/:slug/"
+
+taxonomies: false
+pluralizelisttitles: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

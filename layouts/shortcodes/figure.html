@@ -1,0 +1,10 @@
+<figure>
+    {{ $image := .Get "image" }}
+    {{ $alt_text := .Get "alt" }}
+    <img src="{{ $image }}" alt="{{ $alt_text }}"> <!-- TODO: fix the path for local images-->
+    {{ $id := .Get "id" }}
+    <div id="{{ $id }}" class="figure"></div>
+    <figcaption>
+        <p class="text-sm">{{ .Get "caption" | markdownify }}</p>
+    </figcaption>
+</figure>

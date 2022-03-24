@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="{{ .Site.Params.description }}"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{ if .IsHome }}
+    <title>{{ .Site.Title }}</title>
+    {{ else }}
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{ end}}
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC:600%7CCormorant:700%7CQuattrocento+Sans&display=swap" rel="stylesheet" />
+    
+    {{ $styles := resources.Get "css/app.css" | resources.PostCSS (dict "use" "autoprefixer" "css-loader" "style-loader") }}
+    {{ if .Site.IsServer }}
+      <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
+    {{ else }}
+      {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+      <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+    {{ end }}
+
+    <link rel="alternate" type="application/rss+xml" href="/blog/index.xml" />
+    {{- partial "twitter-card.html" . -}} 
+    {{- partial "analytics.html" . -}}
+  </head>
