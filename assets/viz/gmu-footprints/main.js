@@ -8,12 +8,14 @@ mapboxgl.accessToken =
 const map = new mapboxgl.Map({
   container: "visualization",
   style: "mapbox://styles/mapbox/streets-v11", // style URL
-  center: [-77.308710, 38.830272],
+  center: [-77.30871, 38.830272],
   zoom: 15,
 });
 
 // disable map zoom when using scroll
 map.scrollZoom.disable();
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
 
 map.on("load", () => {
   // load geojson data
@@ -34,47 +36,30 @@ map.on("load", () => {
   });
 });
 
+// basemap selector
+const layerList = document.getElementById("menu");
+const inputs = layerList.getElementsByTagName("input");
+
+for (const input of inputs) {
+  input.onclick = (layer) => {
+    const layerId = layer.target.id;
+    map.setStyle("mapbox://styles/mapbox/" + layerId);
+  };
+}
+
 // We watch for a click to the .notation in the text span
-// When it is clicked, the function animates to the given lat/lon coordinates using the provided 
+// When it is clicked, the function animates to the given lat/lon coordinates using the provided
 // data-zoom, data-lat, and data-lon attributes in the span
 const spans = document.querySelectorAll(".notation");
 
 spans.forEach((span) => {
-    span.addEventListener("click", (e) => {
-        const lat = span.dataset.lat;
-        const lon = span.dataset.lon;
-        const zoom = span.dataset.zoom;
-        map.flyTo({
-            center: [lon, lat],
-            zoom: zoom
-        });
-    }
-    );
+  span.addEventListener("click", (e) => {
+    const lat = span.dataset.lat;
+    const lon = span.dataset.lon;
+    const zoom = span.dataset.zoom;
+    map.flyTo({
+      center: [lon, lat],
+      zoom: zoom,
+    });
+  });
 });
-
-
-
-// const animateTo = (e) => {
-//     const span = e.target;
-//     const zoom = span.dataset.zoom;
-//     const lat = span.dataset.lat;
-//     const lon = span.dataset.lon;
-//     map.flyTo({
-//         center: [lon, lat],
-//         // if no zoom is given, use the current zoom level
-//         zoom: zoom || map.getZoom(),
-//         // duration of the animation in milliseconds
-//         duration: 1000,
-//     });
-// }
-
-
-// function animateTo(lat, lon, zoom) {
-//     map.flyTo({
-//         center: [lon, lat],
-//         // if no zoom is given, use the current zoom level
-//         zoom: zoom || map.getZoom(),
-//         // duration of the animation in milliseconds
-//         duration: 1000,
-//     });
-// }

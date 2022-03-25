@@ -1,7 +1,16 @@
-#visualization { width: 100%; height: 100vh; }
+#visualization {
+  width: 100%;
+  height: 100vh;
+}
+
+#menu {
+  background: #efefef;
+  padding: 10px;
+  font-family: sans-serif;
+}
 
 .notation {
-    border-bottom: 2px solid #1C578A;
-    padding: 0 3px;
-    cursor: pointer;
+  border-bottom: 2px solid #1c578a;
+  padding: 0 3px;
+  cursor: pointer;
 }
