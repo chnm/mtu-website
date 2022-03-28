@@ -17,7 +17,7 @@ map.scrollZoom.disable();
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
-map.on("load", () => {
+map.on("style.load", () => {
   // load geojson data
   map.addSource("gmu", {
     type: "geojson",
@@ -36,7 +36,12 @@ map.on("load", () => {
   });
 });
 
-// basemap selector
+// Build the basemap selector and redraw the data after a user changes the basemap 
+const basemapSelector = document.getElementById("menu");
+basemapSelector.addEventListener("change", (e) => {
+  // updateMap();
+});
+
 const layerList = document.getElementById("menu");
 const inputs = layerList.getElementsByTagName("input");
 
@@ -46,6 +51,26 @@ for (const input of inputs) {
     map.setStyle("mapbox://styles/mapbox/" + layerId);
   };
 }
+
+// this function is for re-drawing the data when the basemap is changed
+// const updateMap = () => {
+//   map.removeSource("gmu");
+//   map.addSource("gmu", {
+//     type: "geojson",
+//     data: "gmufootprints.geojson",
+//   });
+
+//   map.addLayer({
+//     id: "footprints",
+//     type: "fill",
+//     source: "gmu",
+//     layout: {},
+//     paint: {
+//       "fill-color": "brown",
+//       "fill-opacity": 0.8,
+//     },
+//   });
+// };
 
 // We watch for a click to the .notation in the text span
 // When it is clicked, the function animates to the given lat/lon coordinates using the provided
