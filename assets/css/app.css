@@ -757,6 +757,8 @@ html {
   font-family: system-ui, sans-serif;
 }
 
+/* Typography */
+
 h2 {
   font-size: 2.2rem;
   font-weight: 700;
@@ -772,7 +774,7 @@ p {
 
 a {
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: rgb(79 70 229 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
@@ -782,18 +784,21 @@ a {
 
 a:hover {
   --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
+  color: rgb(67 56 202 / var(--tw-text-opacity));
 }
 
 p.abstract {
   font-size: 1.25rem;
+  line-height: 1.75rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 
+/* Visualizations */
+
 #visualization {
-  width: 100%;
   height: 100vh;
+  width: 100%;
 }
 
 #menu {
@@ -801,10 +806,20 @@ p.abstract {
   font-family: sans-serif;
 }
 
+audio {
+  width: 100%;
+}
+
 .notation {
   border-bottom: 2px solid #1c578a;
   padding: 0 3px;
   cursor: pointer;
+}
+
+.footnote-ref {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(190 18 60 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -914,4 +929,3 @@ p.abstract {
     width: 50%;
   }
 }
-  

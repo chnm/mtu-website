@@ -1,7 +1,9 @@
 <figure>
     {{ $image := .Get "image" }}
     {{ $alt_text := .Get "alt" }}
-    <img src="{{ $image }}" alt="{{ $alt_text }}">
+    <a href="{{ $image }}" target="{{ $image }}">
+        <img src="{{ $image }}" alt="{{ $alt_text }}"/>
+    </a>
     {{ $id := .Get "id" }}
     <div id="{{ $id }}" class="figure"></div>
     <figcaption>
