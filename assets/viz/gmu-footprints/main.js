@@ -52,6 +52,16 @@ for (const input of inputs) {
   };
 }
 
+// Watch for a user to click the resetView button and reset the map view
+const resetView = document.getElementById("resetView");
+resetView.addEventListener("click", () => {
+  map.flyTo({
+    center: [-77.30871, 38.830272],
+    zoom: 15,
+  });
+});
+
+
 // this function is for re-drawing the data when the basemap is changed
 // const updateMap = () => {
 //   map.removeSource("gmu");
