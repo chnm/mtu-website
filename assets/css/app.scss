@@ -20,7 +20,7 @@ p {
 }
 
 a {
-    color: var(--tw-link-color);
+    @apply text-blue-600 hover:text-blue-700 transition duration-300 ease-in-out;
 }
 
 p.abstract {
@@ -28,3 +28,20 @@ p.abstract {
     line-height: 1.5;
     margin-bottom: 1.5rem;
 }
+
+#visualization {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #menu {
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  
+  .notation {
+    border-bottom: 2px solid #1c578a;
+    padding: 0 3px;
+    cursor: pointer;
+  }
+  
