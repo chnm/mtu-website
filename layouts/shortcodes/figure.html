@@ -1,7 +1,7 @@
 <figure>
     {{ $image := .Get "image" }}
     {{ $alt_text := .Get "alt" }}
-    <img src="{{ $image }}" alt="{{ $alt_text }}"> <!-- TODO: fix the path for local images-->
+    <img src="{{ $image }}" alt="{{ $alt_text }}">
     {{ $id := .Get "id" }}
     <div id="{{ $id }}" class="figure"></div>
     <figcaption>
