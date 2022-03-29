@@ -8,8 +8,8 @@ mapboxgl.accessToken =
 const map = new mapboxgl.Map({
   container: "visualization",
   style: "mapbox://styles/mapbox/streets-v11", // style URL
-  center: [-76.291544,36.852267],
-  zoom: 18,
+  center: [-76.305456,36.885370],
+  zoom: 15,
 });
 
 // disable map zoom when using scroll
@@ -56,8 +56,8 @@ for (const input of inputs) {
 const resetView = document.getElementById("resetView");
 resetView.addEventListener("click", () => {
   map.flyTo({
-    center: [-76.291544,36.852267],
-    zoom: 18,
+    center: [-76.305456,36.885370],
+    zoom: 15,
   });
 });
 

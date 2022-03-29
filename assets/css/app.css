@@ -556,6 +556,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex: 1 1 0%;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -696,6 +700,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -787,13 +795,6 @@ a:hover {
   color: rgb(67 56 202 / var(--tw-text-opacity));
 }
 
-p.abstract {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  line-height: 1.5;
-  margin-bottom: 1.5rem;
-}
-
 /* Visualizations */
 
 #visualization {
@@ -820,6 +821,26 @@ audio {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(190 18 60 / var(--tw-text-opacity));
+}
+
+.footnotes p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.footnotes ol {
+  list-style-type: decimal;
+  border-top-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(99 102 241 / var(--tw-border-opacity));
+  padding-top: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.hover\:text-slate-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
