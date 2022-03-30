@@ -6,7 +6,7 @@ abstract: "Campus Site Selection and Early History"
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
-thumbnail: odu_site_thumb.png
+thumbnail: odu_site.png
 thumbdesc: "A screenshot showing..."
 ---
 

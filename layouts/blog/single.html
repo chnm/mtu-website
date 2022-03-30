@@ -13,6 +13,17 @@
             </div>
             <div class="post-content w-9/12">
                 <h2>{{.Title}}</h2>
+
+                <span class="inline-flex items-baseline">
+                    <img src="{{.Params.avatar}}"
+                         alt="{{.Params.author}}" 
+                         class="self-center w-6 h-6 rounded-full mx-1"
+                    />
+                    {{with .Params.author}}
+                    <span class="author text-slate-600">{{.}}</span>
+                    {{end}}
+                </span>
+                <hr class="divider" />
                 {{.Content}}
             </div>
         </article>
