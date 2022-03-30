@@ -26,7 +26,6 @@ In February 1930, Hughes and Joseph E. Healy, Director of William & Mary’s ext
 
 {{< figure id="image4" image="SiteSelection-OldLarchmontSchool-1930.jpg" caption="Figure 4. caption text." >}}
 
-
 In June 1930, President Chandler charged Healy with employing an assistant, installing a telephone, and creating a catalog of courses offered. Chandler later announced to the press that the Norfolk Division of the College of William & Mary would open in September 1930. Professors from the Williamsburg campus would commute to Norfolk to teach courses. When classes began on September 12, 1930, 206 students had registered for classes. Having opened during the beginning of the Great Depression, the Norfolk Division was a more affordable option for parents. Tuition and fees were $50 a semester, with an optional $7.50 lab fee. Atlantic University, on the other hand, did not fare as well. Tuition and fees were lower at the Norfolk Division, and many students transferred to reduce their costs. The Great Depression also had a damaging impact to its financial backers, and Atlantic University closed in December 1931. The Norfolk Division purchased their lab equipment, supplies, and a portion of the library.[^2]
 
 [^2]: Sweeney, James R. *[Old Dominion University: 50 Years of Service](https://digitalcommons.odu.edu/history_books/1/)*, Old Dominion University, Norfolk, Va., 1980.
