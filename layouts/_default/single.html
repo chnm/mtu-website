@@ -5,18 +5,28 @@
 <body class="w-full h-full">
     {{- partial "header.html" . -}}
     <main class="container mx-auto px-4 py-24">
-        <div class="medium-2 cell post-meta">
-            {{with .Params.date}}
-            <div class="date">{{.Format "2 Jan 2006"}}</div>
-            {{end}}
-        </div>
-        <div class="medium-8 cell post-content">
-            <h2>{{.Title}}</h2>
-            {{with .Params.author}}
-            <div class="author">{{.}}</div>
-            {{end}}
-            {{.Content}}
-        </div>
+        <article class="md:container md:mx-auto px-4">
+            <div class="medium-2 cell post-meta">
+                {{with .Params.date}}
+                <div class="date uppercase">{{.Format "2 Jan 2006"}}</div>
+                {{end}}
+            </div>
+            <div class="post-content w-9/12">
+                <h2>{{.Title}}</h2>
+
+                <span class="inline-flex items-baseline">
+                    <img src="{{.Params.avatar}}"
+                         alt="{{.Params.author}}" 
+                         class="self-center w-6 h-6 rounded-full mx-1"
+                    />
+                    {{with .Params.author}}
+                    <span class="author text-slate-600">{{.}}</span>
+                    {{end}}
+                </span>
+                <hr class="divider" />
+                {{.Content}}
+            </div>
+        </article>
     </main>
     {{- partial "footer.html" . -}}
 </body>

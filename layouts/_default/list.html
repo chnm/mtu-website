@@ -2,10 +2,10 @@
 <html lang="en">
 {{- partial "head.html" . -}}
 
-<body>
+<body class="w-full h-full">
     {{- partial "header.html" . -}}
+    <main class="container mx-auto px-4 py-24">
     {{.Content}}
-    <div id="content" class="posts">
         {{ range .Pages }}
         <div class="grid-x grid-padding-x post">
             <div class="medium-2 cell post-meta">
@@ -21,7 +21,7 @@
             </div>
         </div>
         {{end}}
-    </div>
+    </main>
     {{- partial "footer.html" . -}}
 </body>
 
