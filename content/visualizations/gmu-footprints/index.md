@@ -1,7 +1,8 @@
 ---
-title: "George Mason University Construction"
+title: "Sample Essay: George Mason University Construction"
 date: 2022-03-18
 updated: 2022-03-18
+author: "Jason Heppler"
 abstract: "A piece of abstract text..."
 script: viz/gmu-footprints/main.js
 styles: viz/gmu-footprints/style.css

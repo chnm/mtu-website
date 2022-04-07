@@ -2,11 +2,12 @@
 title: "Old Dominion University"
 date: 2022-03-18
 updated: 2022-03-18
+author: "Steven Bookman"
 abstract: "Campus Site Selection and Early History"
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
-thumbnail: odu_site.png
+thumbnail: "odu_site.png"
 thumbdesc: "A screenshot showing..."
 ---
 
