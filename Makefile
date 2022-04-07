@@ -14,5 +14,5 @@ preview :
 build-prod :
 	@echo "\nBuilding the site ..."
 	npx tailwindcss -i ./assets/css/app.scss -o ./assets/css/app.css
-	hugo --cleanDestinationDir --minify
+	hugo --cleanDestinationDir --minify --baseURL https://scholarship.rrchnm.org/mtu
 	@echo "Website finished building."

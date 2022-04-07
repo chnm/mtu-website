@@ -16,15 +16,15 @@
         />
       </svg>
       <h1 class="font-bold text-xl cursor-pointer">
-        <a class="text-white hover:text-slate-300" href="/">Mapping the University</a>
+        <a class="text-white hover:text-slate-300" href="{{ .Site.BaseURL }}">Mapping the University</a>
       </h1>
     </div>
     <div class="flex items-center space-x-8 font-bold">
-      <a href="/visualizations" class="cursor-pointer text-lg text-white hover:text-slate-300">Narratives</a>
-      <a href="/maps" class="cursor-pointer text-lg text-white hover:text-slate-300">Maps</a>
-      <a href="/data" class="cursor-pointer text-lg text-white hover:text-slate-300">Data</a>
-      <a href="/blog" class="cursor-pointer text-lg text-white hover:text-slate-300">Blog</a>
-      <a href="/about" class="cursor-pointer text-lg text-white hover:text-slate-300">About</a>
+      <a href="{{ .Site.BaseURL }}/visualizations" class="cursor-pointer text-lg text-white hover:text-slate-300">Narratives</a>
+      <a href="{{ .Site.BaseURL }}/maps" class="cursor-pointer text-lg text-white hover:text-slate-300">Maps</a>
+      <a href="{{ .Site.BaseURL }}/data" class="cursor-pointer text-lg text-white hover:text-slate-300">Data</a>
+      <a href="{{ .Site.BaseURL }}/blog" class="cursor-pointer text-lg text-white hover:text-slate-300">Blog</a>
+      <a href="{{ .Site.BaseURL }}/about" class="cursor-pointer text-lg text-white hover:text-slate-300">About</a>
     </div>
   </nav>
 </header>
