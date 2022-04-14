@@ -21,11 +21,11 @@ In February 1930, Hughes and Joseph E. Healy, Director of William & Mary’s ext
 
 {{<audio src="SiteSelection-JosephEHealy-OralHistory.mp3" caption="Joseph Healy oral history interview." >}}
 
-{{< figure id="image2" image="SiteSelection-BoushStreetSchool-1930-03-03.jpg" caption="Figure 2. caption text." >}}
+{{< figure id="image2" image="SiteSelection-BoushStreetSchool-1930-03-03.jpg" caption="Figure 2. Letter from Robert Morton Hughes, Sr. to President J.A.C. Chandler on Boush Street School Site, March 3, 1930." >}}
 
-{{< figure id="image3" image="SiteSelection-LarchmontSchool-1930-02-27.jpg" caption="Figure 3. caption text." >}}
+{{< figure id="image3" image="SiteSelection-LarchmontSchool-1930-02-27.jpg" caption="Figure 3. Joseph E. Healy to Robert Morton Hughes, Sr. on Old Larchmont School site, February 27, 1930." >}}
 
-{{< figure id="image4" image="SiteSelection-OldLarchmontSchool-1930.jpg" caption="Figure 4. caption text." >}}
+{{< figure id="image4" image="SiteSelection-OldLarchmontSchool-1930.jpg" caption="Figure 4. Exterior of Old Larchmont School, circa 1930-1939." >}}
 
 In June 1930, President Chandler charged Healy with employing an assistant, installing a telephone, and creating a catalog of courses offered. Chandler later announced to the press that the Norfolk Division of the College of William & Mary would open in September 1930. Professors from the Williamsburg campus would commute to Norfolk to teach courses. When classes began on September 12, 1930, 206 students had registered for classes. Having opened during the beginning of the Great Depression, the Norfolk Division was a more affordable option for parents. Tuition and fees were $50 a semester, with an optional $7.50 lab fee. Atlantic University, on the other hand, did not fare as well. Tuition and fees were lower at the Norfolk Division, and many students transferred to reduce their costs. The Great Depression also had a damaging impact to its financial backers, and Atlantic University closed in December 1931. The Norfolk Division purchased their lab equipment, supplies, and a portion of the library.[^2]
 
@@ -35,4 +35,4 @@ In June 1930, President Chandler charged Healy with employing an assistant, inst
 
 As a division of William & Mary, similar to today’s community college model, students would take their first two years of courses in Norfolk, and then transfer to another institution for the last two years. In 1931, President Chandler partnered with Virginia Polytechnic Institute (VPI), to bring their engineering program to Norfolk. Under the agreement, VPI would provide the faculty to teach the first two years of their curriculum, and then the students would transfer to another college or university (Edward White Oral History Interview). Due to its proximity to Naval Station Norfolk, the inclusion of the VPI program enticed more students to the newly established Norfolk Division of the College of William & Mary and Virginia Polytechnic Institute. This relationship would last until 1963, a year after the division became the independent Old Dominion College, and is one of the reasons Old Dominion’s engineering program is known worldwide. 
 
-{{< figure id="image5" image="SiteSelection-WMN-VPISign-1940s.jpg" caption="Figure 5. Norfolk Division of the College of William & Mary and Virginia Polytechnic Institute." >}}
+{{< figure id="image5" image="SiteSelection-WMN-VPISign-1940s.jpg" caption="Figure 5. Norfolk Division of the College of William & Mary and Virginia Polytechnic Institute Sign, circa 1940-1949." >}}
