@@ -7,7 +7,7 @@ abstract: "A history of athletics at Old Dominion University as seen through its
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
-thumbnail: "odu_site.png"
+thumbnail: "FootballTeam-Gallaudet-1935.jpg"
 thumbdesc: "A screenshot showing..."
 ---
 

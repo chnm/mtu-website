@@ -7,7 +7,7 @@ abstract: "In 1930, Old Dominion University was founded and a site was chosen fo
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
-thumbnail: "odu_site.png"
+thumbnail: "SiteSelection-OldLarchmontSchool-1930.jpg"
 thumbdesc: "A screenshot showing..."
 ---
 
