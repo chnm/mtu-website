@@ -1,9 +1,9 @@
 ---
-title: "Old Dominion University: Campus Site Selection and Early History"
+title: "Location, Location, Location: The Founding and Site Selection for Old Dominion University"
 date: 2022-03-18
 updated: 2022-03-18
 author: "Steven Bookman"
-abstract: ""
+abstract: "In 1930, Old Dominion University was founded and a site was chosen for its first buildings."
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
