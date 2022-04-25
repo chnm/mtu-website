@@ -1,17 +1,17 @@
 ---
-title: "Old Dominion University: Campus Site Selection and Early History"
+title: "Location, Location, Location: The Founding and Site Selection for Old Dominion University"
 date: 2022-03-18
 updated: 2022-03-18
 author: "Steven Bookman"
-abstract: ""
+abstract: "In 1930, Old Dominion University was founded and a site was chosen for its first buildings."
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
-thumbnail: "odu_site.png"
+thumbnail: "SiteSelection-OldLarchmontSchool-1930.jpg"
 thumbdesc: "A screenshot showing..."
 ---
 
-By the 1920s, it was said that Norfolk was the largest city in the English-speaking world without an institute of higher education. While the <span class="notation" data-id="1" data-zoom="14" data-lat="37.270452" data-lon="-76.708278">College of William & Mary</span> established extension courses in Norfolk in 1919, mostly for local teachers, it was competition from another school that spurred William & Mary to create a division in Norfolk. There were several attempts to <span class="notation" data-id="1" data-zoom="13" data-lat="36.86912" data-lon="-76.28730">establish a college in Norfolk,</span> but it wasn't until the late 1920s that they started to take shape. Robert Morton Hughes, Sr., a prominent Norfolk attorney, and A. H. Foreman, a lawyer and member of the Norfolk School Board, were two of the strongest proponents of a college in Norfolk. In early 1930, Atlantic University, financed by bankers from New York City, was being established in Virginia Beach. Hughes and Foreman saw this as a threat to William & Mary's interest in the South Hampton Roads region, as Hughes wrote to William & Mary’s president, J.A.C. Chandler, to "act promptly on your junior college plan if you intend to act at all."[^1]
+By the 1920s, it was said that Norfolk was the largest city in the English-speaking world without an institute of higher education. While the <span class="notation" data-id="1" data-zoom="14" data-lat="37.270452" data-lon="-76.708278">College of William & Mary</span> established extension courses in Norfolk in 1919, mostly for local teachers, it was competition from another school that spurred William & Mary to create a division in Norfolk. There were several attempts to <span class="notation" data-id="1" data-zoom="12" data-lat="36.86912" data-lon="-76.28730">establish a college in Norfolk,</span> but it wasn't until the late 1920s that they started to take shape. Robert Morton Hughes, Sr., a prominent Norfolk attorney, and A. H. Foreman, a lawyer and member of the Norfolk School Board, were two of the strongest proponents of a college in Norfolk. In early 1930, Atlantic University, financed by bankers from New York City, was being established in Virginia Beach. Hughes and Foreman saw this as a threat to William & Mary's interest in the South Hampton Roads region, as Hughes wrote to William & Mary’s president, J.A.C. Chandler, to "act promptly on your junior college plan if you intend to act at all."[^1]
 
 [^1]: Sweeney, James R. *[Old Dominion University: 50 Years of Service](digitalcommons.odu.edu)*, Old Dominion University, Norfolk, Va., 1980.
 
@@ -33,6 +33,6 @@ In June 1930, President Chandler charged Healy with employing an assistant, inst
 
 <!-- image grid for 3 photos -->
 
-As a division of William & Mary, similar to today’s community college model, students would take their first two years of courses in Norfolk, and then transfer to another institution for the last two years. In 1931, President Chandler partnered with Virginia Polytechnic Institute (VPI), to bring their engineering program to Norfolk. Under the agreement, VPI would provide the faculty to teach the first two years of their curriculum, and then the students would transfer to another college or university (Edward White Oral History Interview). Due to its proximity to Naval Station Norfolk, the inclusion of the VPI program enticed more students to the newly established Norfolk Division of the College of William & Mary and Virginia Polytechnic Institute. This relationship would last until 1963, a year after the division became <span class="notation" data-id="1" data-zoom="14" data-lat="36.885123" data-lon="-76.279728">the independent Old Dominion College,</span> and is one of the reasons Old Dominion’s engineering program is known worldwide. 
+As a division of William & Mary, similar to today’s community college model, students would take their first two years of courses in Norfolk, and then transfer to another institution for the last two years. In 1931, President Chandler partnered with Virginia Polytechnic Institute (VPI), to bring their engineering program to Norfolk. Under the agreement, VPI would provide the faculty to teach the first two years of their curriculum, and then the students would transfer to another college or university ([Edward White Oral History Interview](https://dc.lib.odu.edu/digital/collection/oralhistory/id/402/rec/102)). Due to its proximity to Naval Station Norfolk, the inclusion of the VPI program enticed more students to the newly established Norfolk Division of the College of William & Mary and Virginia Polytechnic Institute. This relationship would last until 1963, a year after the division became <span class="notation" data-id="1" data-zoom="15" data-lat="36.871448" data-lon="-76.307482">the independent Old Dominion College,</span> and is one of the reasons Old Dominion’s engineering program is known worldwide. 
 
 {{< figure id="image5" image="SiteSelection-WMN-VPISign-1940s.jpg" caption="Figure 5. Norfolk Division of the College of William & Mary and Virginia Polytechnic Institute Sign, circa 1940-1949." >}}
