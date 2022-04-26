@@ -18,7 +18,7 @@ h2 {
 p {
   line-height: 1.5;
   margin: 0 0 1.5rem;
-  @apply font-serif text-xl;
+  @apply font-serif text-lg;
 }
 
 a {
@@ -38,9 +38,9 @@ a {
 
 /* Visualizations */
 
-#visualization {
+/*#visualization {
   @apply w-full h-screen;
-}
+}*/
 
 #menu {
   padding: 10px;
@@ -57,10 +57,10 @@ audio {
   cursor: pointer;
 }
 
-.narrative p:nth-child(3):first-letter {
+.narrative p:nth-child(2):first-letter {
   float: left;
   border-right: 2px solid #529Ecc;
-  font-size: 75px;
+  @apply text-7xl;
   line-height: 60px;
   padding-top: 5px;
   padding-right: 8px;
