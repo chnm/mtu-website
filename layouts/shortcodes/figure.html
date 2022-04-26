@@ -1,12 +1,17 @@
 <figure>
     {{ $image := .Get "image" }}
     {{ $alt_text := .Get "alt" }}
-    <a href="{{ $image }}" target="{{ $image }}">
+    {{ $id := .Get "id" }}
+
+    <a href="#{{ $id }}">
         <img src="{{ $image }}" alt="{{ $alt_text }}"/>
     </a>
-    {{ $id := .Get "id" }}
-    <div id="{{ $id }}" class="figure"></div>
+    
     <figcaption>
         <p class="text-sm">{{ .Get "caption" | markdownify }}</p>
     </figcaption>
+
+    <a href="#" class="lightbox" id="{{ $id }}">
+        <span style="background-image: url('{{ $image }}')"></span>
+    </a>
 </figure>
