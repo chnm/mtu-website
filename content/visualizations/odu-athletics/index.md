@@ -25,7 +25,7 @@ The first structure, built at an estimated $123,000 and dubbed simply the <span 
 
 {{< figure id="image2" image="AdministrationBuilding-Exterior-1936.jpg" caption="Figure 2. Exterior of Administration Building, 1936." >}}
 
-{{< figure id="image3" image="BasketballTeam-AdminGym-1957.jpg" caption="Figure 3. William & Mary basketball team in Administration Building gymnasium, 1957." >}}
+{{< figure id="image3" image="BasketballTeam-AdminGym-1957.jpg" caption="Figure 3. William & Mary Norfolk basketball team in Administration Building gymnasium, 1957." >}}
 
 Physical education classes also took place in the gymnasium along with special events such as concerts, Commencement exercises, student versus faculty basketball games, and competition among early Greek organizations. The athletics program grew significantly through the 1950s and 1960s, especially with the inclusion of women’s varsity teams for basketball, field hockey, and swimming, and the men’s basketball team moved their games to the larger Norfolk Arena. Donna Doyle, one of the best athletes of the 1950s, would have her name attached to the first athletic scholarships for women in 1975. Leo Anthony, star of the 1957-1961 men’s basketball team, was Old Dominion’s first basketball All-American with 2,181 points.[^3]  
 [^3]: Sweeney, James R. *[Old Dominion University: 50 Years of Service](https://digitalcommons.odu.edu/)*, Old Dominion University, Norfolk, Va., 1980.
