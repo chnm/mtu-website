@@ -4,14 +4,13 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
 
-  <body class="visualization">
-    {{- partial "header.html" . -}}
-    <div id="app" class="h-screen flex flex-col overflow-hidden"> <!-- TODO: might need padding on the right -->
-      <div class="flex-1 flex overflow-hidden">
-        <div class="bg-gray-200 w-full sm:w-2/5 md:w-2/5 flex-1 flex top-0 p-4">
-          <div class="narrative overflow-y-scroll px-6 py-4">
-            <h3 class="inline-block text-2xl sm:text-1xl font-bold text-slate-900 tracking-tight">{{.Title}}</h3>
-            <p class="font-normal text-xl sm:text-1xl">{{ .Params.abstract }}</p>
+  <body class="fixed visualization">
+    <div id="app" class="flex flex-col h-screen">
+      {{- partial "header.html" . -}}
+      <div class="flex flex-1 overflow-hidden">
+        <div class="bg-gray-200 w-2/5 h-full overflow-y-auto">
+          <div class="narrative px-6 py-4">
+            <h3 class="inline-block text-2xl sm:text-1xl font-bold text-slate-900 tracking-tight pb-4">{{.Title}}</h3>
               {{ .Content }}
 
               {{ $cssStyle := resources.Get .Params.styles | resources.Minify | resources.Fingerprint }}
@@ -21,7 +20,7 @@
               <script type="module" src="{{ $script.Permalink }}"></script>
           </div>
         </div>
-        <div class="h-screen w-full sm:w-3/5 md:w-3/5">
+        <div class="w-full sm:w-3/5 md:w-3/5">
           <div id="menu" class="bg-gray-200">
             <input id="satellite-v9" type="radio" name="rtoggle" value="satellite">
             <label for="satellite-v9">satellite</label>
@@ -35,10 +34,10 @@
               <i class="fa-solid fa-rectangle-xmark"></i> Reset View
             </button>
           </div>
-          <div id="visualization"></div>
+          <div id="visualization" class="w-full h-full overflow-y-clip"></div>
         </div>
       </div>
+      {{- partial "footer.html" . -}}
     </div>
-    {{- partial "footer.html" . -}}
   </body>
 </html>

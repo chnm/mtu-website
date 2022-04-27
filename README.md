@@ -20,8 +20,6 @@ The visualizations will be compiled as a part of the build steps defined in the 
 
 The `Makefile` contains rules for previewing, building, and deploying the site.
 
-To preview the site locally, including draft and future content, run `make preview`. 
+To preview the site locally, including draft and future content, you need to have two commands running: `make preview` which will run Hugo, and `make watchcss` to watch for changes to the CSS files. Because of Tailwind's JIT changes, you'll need to recompile anytime changes are made to CSS files.
 
-If you are doing work with the CSS files, you will need to compile the CSS to preview those changes. You can run `make watchcss` in a separate terminal to have Tailwind re-compile anytime you make chanes. 
-
-To build for production, run `make build` (which will compile and minify the site) and to deploy run `make deploy`.
+To build for production, run `make build` (which will compile the CSS and minify the site) and to deploy run `make deploy`.

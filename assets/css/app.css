@@ -502,8 +502,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.top-0 {
-  top: 0px;
+.fixed {
+  position: fixed;
 }
 
 .col-span-2 {
@@ -601,6 +601,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 40rem;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -669,8 +673,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
-.overflow-y-scroll {
-  overflow-y: scroll;
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-y-clip {
+  overflow-y: clip;
 }
 
 .rounded-full {
@@ -705,8 +713,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.p-4 {
-  padding: 1rem;
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-4 {
@@ -758,6 +766,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 8rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -789,10 +801,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .uppercase {
@@ -879,7 +887,7 @@ p {
   line-height: 1.5;
   margin: 0 0 1.5rem;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -911,10 +919,9 @@ a:hover {
 
 /* Visualizations */
 
-#visualization {
-  height: 100vh;
-  width: 100%;
-}
+/*#visualization {
+  @apply w-full h-screen;
+}*/
 
 #menu {
   padding: 10px;
@@ -925,21 +932,29 @@ audio {
   width: 100%;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+/* Narratives */
+
 .notation {
   border-bottom: 2px solid #1c578a;
   padding: 0 3px;
   cursor: pointer;
 }
 
-.narrative p:nth-child(3):first-letter {
+.narrative p:nth-child(2):first-letter {
   float: left;
   border-right: 2px solid #529Ecc;
-  font-size: 75px;
   line-height: 60px;
   padding-top: 5px;
   padding-right: 8px;
   padding-left: 3px;
   margin-right: 15px;
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .footnote-ref {
@@ -961,6 +976,31 @@ audio {
   padding-top: 1rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hover\:text-slate-300:hover {
@@ -1000,10 +1040,6 @@ audio {
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .sm\:w-2\/5 {
-    width: 40%;
   }
 
   .sm\:w-3\/5 {
@@ -1068,29 +1104,25 @@ audio {
     width: 66.666667%;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
-  }
-
   .md\:w-3\/5 {
     width: 60%;
   }
 
-  .md\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  .md\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .lg\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
