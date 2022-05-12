@@ -9,6 +9,8 @@ styles: viz/mallory-house/style.css
 layout: visualization
 thumbnail: gmu_footprints.png
 thumbdesc: "A screenshot showing..."
+startingPosition: "[-77.313740,38.831826]"
+defaultZoom: 15 
 ---
 
 <span class="notation" data-id="1" data-zoom="17" data-lat="38.827128" data-lon="-77.311517">President's Park,</span> <span class="notation" data-id="1" data-zoom="17" data-lat="38.834063" data-lon="-77.315254">Hampton Roads, and Dominion Hall</span> are among the many student housing buildings on the George Mason Fairfax campus today. However, that was not always the case. For a large portion of Mason’s history there was no student housing on campus at all. The main reason for this was the vision of Mason’s founders. In the early years, Mason was designed as a commuter college for the community of Northern Virginia. The target student populations at its beginning were military veterans on the GI Bill after World War II and adults living in the NOVA area. As time went on, the university grew and this led to a debate amongst the community and the university officials. Some faculty members argued that as a university expanded, student housing would become a requirement in order to support the needs of the students. Evidence of this need was showcased in newspaper articles such as in the Northern Virginia Sun. In one such article,  Charles Repp from the Mason Office of Financial Assistance and Placement begged the community to provide housing for the students. In addition, the students that did live in the community attracted parties and parking problems for the neighborhoods where they resided. In the end, the debate over student housing for Mason was a debate between expanding the university academically or focusing on student facilities. 
