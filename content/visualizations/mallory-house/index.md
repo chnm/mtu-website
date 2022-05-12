@@ -4,11 +4,14 @@ date: 2022-03-30
 updated: 2022-03-30
 author: "Laura Brannan Fretwell"
 abstract: "A piece of abstract text..."
-script: viz/mallory-house/main.js
+script: viz/common/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
 thumbnail: gmu_footprints.png
 thumbdesc: "A screenshot showing..."
+startingLon: -77.313740
+startingLat: 38.831826
+defaultZoom: 15
 ---
 
 <span class="notation" data-id="1" data-zoom="17" data-lat="38.832571" data-lon="-77.312316">A shattered glass door.</span> Insults exchanged such as "stooge," "commie," and "hooligan."[^1] Punches thrown. This describes a scene in a parking lot on the edge of campus at George Mason College in 1971, which was then a branch college of the University of Virginia. A verbal then physical fight occurred between a male student and a male staff member. There were conflicting reports about who threw the first punch, but both sides agreed that the altercation began over a dispute about a parking permit.

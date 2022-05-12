@@ -9,6 +9,9 @@ styles: viz/odu-site/style.css
 layout: visualization
 thumbnail: "FootballTeam-Gallaudet-1935.jpg"
 thumbdesc: "A screenshot showing..."
+startingLon: -76.305456
+startingLat: 36.885370
+defaultZoom: 15
 ---
 
 When the Norfolk Division began in September 1930, the only building on campus was the old Larchmont School, which did not contain a gymnasium for athletics. From 1930 to 1936, the athletic teams at the division, known as the Braves, held their games at several sites across the city.

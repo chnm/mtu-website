@@ -9,6 +9,9 @@ styles: viz/odu-site/style.css
 layout: visualization
 thumbnail: "SiteSelection-OldLarchmontSchool-1930.jpg"
 thumbdesc: "A screenshot showing..."
+startingLon: -76.305456
+startingLat: 36.885370
+defaultZoom: 15
 ---
 
 By the 1920s, it was said that Norfolk was the largest city in the English-speaking world without an institute of higher education. While the <span class="notation" data-id="1" data-zoom="17" data-lat="37.270452" data-lon="-76.708278">College of William & Mary</span> established extension courses in Norfolk in 1919, mostly for local teachers, it was competition from another school that spurred William & Mary to create a division in Norfolk. There were several attempts to <span class="notation" data-id="1" data-zoom="12" data-lat="36.896577" data-lon="-76.262712">establish a college in Norfolk,</span> but it wasn't until the late 1920s that they started to take shape. Robert Morton Hughes, Sr., a prominent Norfolk attorney, and A. H. Foreman, a lawyer and member of the Norfolk School Board, were two of the strongest proponents of a college in Norfolk. In early 1930, Atlantic University, financed by bankers from New York City, was being established in Virginia Beach. Hughes and Foreman saw this as a threat to William & Mary's interest in the South Hampton Roads region, as Hughes wrote to William & Mary’s president, J.A.C. Chandler, to "act promptly on your junior college plan if you intend to act at all."[^1]
