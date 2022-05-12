@@ -11,12 +11,16 @@
         <div class="bg-gray-200 w-2/5 h-full overflow-y-auto">
           <div class="narrative px-6 py-4">
             <h3 class="inline-block text-2xl sm:text-1xl font-bold text-slate-900 tracking-tight pb-4">{{.Title}}</h3>
-              {{ .Content }}
+            <!-- fetch the startingLon, startingLat, defaultZoom from markdown and store as a variable -->
+            {{- $startingLon := .Params.startingLon -}}
+            {{- $startingLat := .Params.startingLat -}}
+            {{- $defaultZoom := .Params.defaultZoom -}}
+              
+            {{ .Content }}
 
               {{ $cssStyle := resources.Get .Params.styles | resources.Minify | resources.Fingerprint }}
               <link rel="stylesheet" href="{{ $cssStyle.Permalink }}" integrity="{{ $cssStyle.Data.Integrity }}">
-
-              {{ $script := resources.Get .Params.script  }}
+              {{ $script := resources.Get .Params.script | js.Build (dict "params" (dict "startingLon" $startingLon "startingLat" $startingLat "defaultZoom" $defaultZoom))  }}
               <script type="module" src="{{ $script.Permalink }}"></script>
           </div>
         </div>
