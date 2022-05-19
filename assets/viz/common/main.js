@@ -38,8 +38,8 @@ for (const input of inputs) {
 const resetView = document.getElementById("resetView");
 resetView.addEventListener("click", () => {
   map.flyTo({
-    center: [-77.30871, 38.830272],
-    zoom: 15,
+    center: [params.startingLon, params.startingLat],
+    zoom: params.defaultZoom,
   });
 });
 
