@@ -14,8 +14,6 @@ Jessica Mack, Project Director, Roy Rosenzweig Center for History and New Media 
 
 Steve Bookman, Co-PI and University Archivist, Old Dominion University
 
-Jason Heppler, Senior Web Developer, RRCHNM
-
 Laura Brannan Fretwell, Graduate Research Assistant, RRCHNM
 
 Greta Swain, Graduate Research Assistant, RRCHNM
@@ -28,12 +26,13 @@ Anna Woloshin, Undergraduate Research Assistant, ODU
 
 Vanessa Baez, Graduate Intern, Department of Geography and Geoinformation Science, GMU
 
-
 ## Roy Rosenzweig Center for History and New Media Team
 
 Mills Kelly, Executive Director
 
 Bridget Bukovich, Community Engagement Coordinator
+
+Jason Heppler, Senior Web Developer, RRCHNM
 
 Julia Hoffer, Grants Administrator
 
@@ -50,7 +49,6 @@ Thanh Nguyen, Office Manager
 Jessica Otis, Director of Public Projects
 
 Nate Sleeter, Director of Education
-
 
 ## Acknowledgements
 
