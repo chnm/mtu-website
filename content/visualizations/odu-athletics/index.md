@@ -8,7 +8,7 @@ script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
 thumbnail: "FootballTeam-Gallaudet-1935.jpg"
-thumbdesc: "A screenshot showing..."
+thumbdesc: "A football game at Bain Field"
 startingLon: -76.305456
 startingLat: 36.885370
 defaultZoom: 15
