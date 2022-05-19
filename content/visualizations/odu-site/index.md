@@ -8,7 +8,7 @@ script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
 thumbnail: "SiteSelection-OldLarchmontSchool-1930.jpg"
-thumbdesc: "A screenshot showing..."
+thumbdesc: "Old Larchmont School"
 startingLon: -76.305456
 startingLat: 36.885370
 defaultZoom: 15
