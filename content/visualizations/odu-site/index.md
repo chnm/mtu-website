@@ -16,7 +16,7 @@ defaultZoom: 15
 
 By the 1920s, it was said that Norfolk was the largest city in the English-speaking world without an institute of higher education. While the <span class="notation" data-id="1" data-zoom="17" data-lat="37.270452" data-lon="-76.708278">College of William & Mary</span> established extension courses in Norfolk in 1919, mostly for local teachers, it was competition from another school that spurred William & Mary to create a division in Norfolk. There were several attempts to <span class="notation" data-id="1" data-zoom="12" data-lat="36.896577" data-lon="-76.262712">establish a college in Norfolk,</span> but it wasn't until the late 1920s that they started to take shape. Robert Morton Hughes, Sr., a prominent Norfolk attorney, and A. H. Foreman, a lawyer and member of the Norfolk School Board, were two of the strongest proponents of a college in Norfolk. In early 1930, Atlantic University, financed by bankers from New York City, was being established in Virginia Beach. Hughes and Foreman saw this as a threat to William & Mary's interest in the South Hampton Roads region, as Hughes wrote to William & Mary’s president, J.A.C. Chandler, to "act promptly on your junior college plan if you intend to act at all."[^1]
 
-[^1]: Sweeney, James R. *[Old Dominion University: 50 Years of Service](digitalcommons.odu.edu)*, Old Dominion University, Norfolk, Va., 1980.
+[^1]: Sweeney, James R. *[Old Dominion University: A Half Century of Service](digitalcommons.odu.edu)*, (Norfolk, Va.: Old Dominion University, 1980).
 
 {{< figure id="chandler" image="Dr_Julian_A_C_Chandler_circa1930-1939.jpg" caption="Figure 1. Dr. Julian A. C. Chandler, ca. 1930-1939." >}}
 
@@ -32,7 +32,7 @@ In February 1930, Hughes and Joseph E. Healy, Director of William & Mary’s ext
 
 In June 1930, President Chandler charged Healy with employing an assistant, installing a telephone, and creating a catalog of courses offered. Chandler later announced to the press that the Norfolk Division of the College of William & Mary would open in September 1930. Professors from the Williamsburg campus would commute to Norfolk to teach courses. When classes began on September 12, 1930, 160 students had registered for classes. Having opened during the beginning of the Great Depression, the Norfolk Division was a more affordable option for parents. Tuition and fees were $50 a semester, with an optional $7.50 lab fee. Atlantic University, on the other hand, did not fare as well. Tuition and fees were lower at the Norfolk Division, and many students transferred to reduce their costs. The Great Depression also had a damaging impact to its financial backers, and Atlantic University closed in December 1931. The Norfolk Division purchased their lab equipment, supplies, and a portion of the library.[^2]
 
-[^2]: Sweeney, James R. *[Old Dominion University: 50 Years of Service](https://digitalcommons.odu.edu/history_books/1/)*, Old Dominion University, Norfolk, Va., 1980.
+[^2]: Sweeney, James R. *[Old Dominion University: A Half Century of Service](https://digitalcommons.odu.edu/history_books/1/)* (Norfolk, Va.: Old Dominion University, 1980).
 
 <!-- image grid for 3 photos -->
 
