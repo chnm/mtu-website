@@ -1,9 +1,9 @@
 ---
-title: "Building an Arena for George Mason"
+title: "An Inside Look at the History of George Mason's Arena"
 date: 2022-05-12
 updated: 2022-05-12
 author: "Joseph Moore"
-abstract: "A piece of abstract text..."
+abstract: "Internal university documents reveal a comprehensive timeline of the construction of George Mason's arena."
 script: viz/common/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
@@ -36,4 +36,3 @@ The penultimate year of the arena construction process saw a lot of progress. Ho
 
 Within the budget there are some interesting details that serve as both a time capsule and a glimpse into the future. The budget details a breakdown of how the University planned to make money through operating the arena outside of Mason activities. The budget includes a monetary breakdown of 95 events and their monetary contribution to pay off their debt. The events ranged from family/children shows to varying levels of sports and concerts of multiple musical genres. Some of the specific names the budget mentioned were the Barnum and Bailey Circus as well as Disney Ice events. The budget proposal mentions why it feels a wide variety of event styles is the best way to operate the arena. The report states, “The extremely high income level of Northern Virginia compared to the national average and central location of GMUA in Northern Virginia, combines to make GMUA one of the most attractive new facilities built in recent years.”  This motto and business plan paid off. EagleBank arena is proud that it has hosted events for artists like Bruce Springsteen and Keith Urban as well as family sporting events like WWE and the Harlem Globetrotters. The arena now stands as a pillar of family entertainment in the Northern Virginia Community and has intrinsically tied George Mason University to the area’s culture. A high point in recent memory would be the 2006 NCAA season which saw George Mason make a March Madness run all the way to the Final Four. Hopefully, the team can reach those heights again soon. 
 
-{{< figure id="img1" image="studenthousingsought.jpg" caption="Figure 1. This article describes the struggle of Mason administrators to find jobs and housing options for student returning to campus in the fall of 1974. *Northern Virginia Sun*, July 26, 1974." >}}
