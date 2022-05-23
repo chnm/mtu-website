@@ -7,8 +7,8 @@ abstract: "Student housing built in the 1970s transforms George Mason from a com
 script: viz/common/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
-thumbnail: gmu_footprints.png
-thumbdesc: "A screenshot showing..."
+thumbnail: unfinishedconstruction.png
+thumbdesc: "Construction in progress on the future student apartments."
 startingLon: -77.313740
 startingLat: 38.831826
 defaultZoom: 14
