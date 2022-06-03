@@ -3,12 +3,15 @@ title: "Parking Lots and Protests: The Mallory House Incident in 1971"
 date: 2022-03-30
 updated: 2022-03-30
 author: "Laura Brannan Fretwell"
-abstract: "A piece of abstract text..."
+abstract: "One night in 1971, a conflict between a Mason student and staff member in a parking lot bordering campus revealed larger political issues in the United States around censorship, abortion rights, and university politics."
 script: viz/mallory-house/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
 thumbnail: gmu_footprints.png
 thumbdesc: "A screenshot showing..."
+startingLon: -77.312316
+startingLat: 38.832571
+defaultZoom: 17
 ---
 
 <span class="notation" data-id="1" data-zoom="17" data-lat="38.832571" data-lon="-77.312316">A shattered glass door.</span> Insults exchanged such as “stooge,” “commie,” and “hooligan.”[^1]
@@ -35,7 +38,7 @@ The two staff members allegedly insulted Cassedy’s long hair and called him a 
 
 {{< figure id="img2" image="2 Broadside 1971-09-29.HEIC" caption="Figure 2. James Conner pictured three months before the incident by an “out building.” This area, called “college property” since it was across from Ox Road west of campus, included the Mallory House, the residence of the Chancellor, the Police Chief Law’s home, and a vineyard. *Broadside* September 29, 1971, p.3" >}}
 
-This event speaks to national trends of radical youth counterculture in the 1970s, mostly associated with protesting the Vietnam War, participating in the sex revolution, supporting the Black Panther movement, and questioning authority, especially on college campuses. The insults about Cassedy’s long “hippy hair” and his accusation of the “stooges” trying to shut down Broadside reflect broader political disagreements between students and staff. This was the same year that GMC faculty member James Shear caused controversy on campus over his protests against the Vietnam War. In short, the 1970s were contentious times in the U.S. when generational conflicts often played out on college campuses.
+This event speaks to national trends of radical youth counterculture in the 1970s, mostly associated with protesting the Vietnam War, participating in the sex revolution, supporting the Black Panther movement, and questioning authority, especially on college campuses. The insults about Cassedy’s long “hippy hair” and his accusation of the “stooges” trying to shut down Broadside reflect broader political disagreements between students and staff. This was the same year that GMC faculty member James Shea caused controversy on campus over his protests against the Vietnam War. In short, the 1970s were contentious times in the U.S. when generational conflicts often played out on college campuses.
 
 
 Among the verbal insults exchanged in front of the Mallory House that night were remarks related to national debates over abortion rights that had recently filled the pages of the *Broadside*. In 1973, the Supreme Court issued the federal right to abortion in the Roe v. Wade decision. Before abortion was legalized in 1971, however, *Broadside* published out of state abortion referrals for months. Despite backlash from the administration that they were directly violating the law, editors like Jack Cassedy continued to publish pro-abortion articles. 
