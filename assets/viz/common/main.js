@@ -18,25 +18,6 @@ map.scrollZoom.disable();
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
-map.on("style.load", () => {
-  // load geojson data
-//   map.addSource("gmu", {
-//     type: "geojson",
-//     data: "gmufootprints.geojson",
-//   });
-
-//   map.addLayer({
-//     id: "footprints",
-//     type: "fill",
-//     source: "gmu",
-//     layout: {},
-//     paint: {
-//       "fill-color": "brown",
-//       "fill-opacity": 0.8,
-//     },
-//   });
-});
-
 // Build the basemap selector and redraw the data after a user changes the basemap 
 const basemapSelector = document.getElementById("menu");
 basemapSelector.addEventListener("change", (e) => {
@@ -57,8 +38,8 @@ for (const input of inputs) {
 const resetView = document.getElementById("resetView");
 resetView.addEventListener("click", () => {
   map.flyTo({
-    center: [-77.30871, 38.830272],
-    zoom: 15,
+    center: [params.startingLon, params.startingLat],
+    zoom: params.defaultZoom,
   });
 });
 
