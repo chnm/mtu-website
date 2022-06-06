@@ -7,8 +7,8 @@ abstract: "One night in 1971, a conflict between a Mason student and staff membe
 script: viz/mallory-house/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
-thumbnail: gmu_footprints.png
-thumbdesc: "A screenshot showing..."
+thumbnail: "5 cartoon.jpg"
+thumbdesc: "A drawing critical of the student newspaper *Broadside*."
 startingLon: -77.312316
 startingLat: 38.832571
 defaultZoom: 17
