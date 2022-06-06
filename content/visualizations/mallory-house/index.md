@@ -3,15 +3,15 @@ title: "Parking Lots and Protests: The Mallory House Incident in 1971"
 date: 2022-03-30
 updated: 2022-03-30
 author: "Laura Brannan Fretwell"
-abstract: "A piece of abstract text..."
-script: viz/common/main.js
+abstract: "One night in 1971, a conflict between a Mason student and staff member in a parking lot bordering campus revealed larger political issues in the United States around censorship, abortion rights, and university politics."
+script: viz/mallory-house/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
-thumbnail: gmu_footprints.png
-thumbdesc: "A screenshot showing..."
-startingLon: -77.313740
-startingLat: 38.831826
-defaultZoom: 15
+thumbnail: "5 cartoon.jpg"
+thumbdesc: "A drawing critical of the student newspaper *Broadside*."
+startingLon: -77.312316
+startingLat: 38.832571
+defaultZoom: 17
 ---
 
 <span class="notation" data-id="1" data-zoom="17" data-lat="38.832571" data-lon="-77.312316">A shattered glass door.</span> Insults exchanged such as "stooge," "commie," and "hooligan."[^1] Punches thrown. This describes a scene in a parking lot on the edge of campus at George Mason College in 1971, which was then a branch college of the University of Virginia. A verbal then physical fight occurred between a male student and a male staff member. There were conflicting reports about who threw the first punch, but both sides agreed that the altercation began over a dispute about a parking permit.
@@ -32,7 +32,9 @@ Cassedy then met them outside and told Devere to call the police. A verbal then 
 
 {{< figure id="img1" image="1 Northern Virginia Sun.jpeg" caption="Figure 1. An article a week after the Mallory House incident was published in the local city newspaper *Northern Virginia Sun*. The Fairfax city police were called and reported the verbal and physical conflict in their files. *Northern Virginia Sun*, December 10, 1971." >}}
 
-{{< figure id="img2" image="2 Broadside 1971-09-29.jpg" caption="Figure 2. James Conner pictured three months before the incident by an \"out building.\" This area, called \"college property\" since it was across from Ox Road west of campus, included the Mallory House, the residence of the Chancellor, the Police Chief Law\'s home, and a vineyard. *Broadside* September 29, 1971, p. 3." >}}
+{{< figure id="img2" image="2 Broadside 1971-09-29.HEIC" caption="Figure 2. James Conner pictured three months before the incident by an “out building.” This area, called “college property” since it was across from Ox Road west of campus, included the Mallory House, the residence of the Chancellor, the Police Chief Law’s home, and a vineyard. *Broadside* September 29, 1971, p.3" >}}
+
+This event speaks to national trends of radical youth counterculture in the 1970s, mostly associated with protesting the Vietnam War, participating in the sex revolution, supporting the Black Panther movement, and questioning authority, especially on college campuses. The insults about Cassedy’s long “hippy hair” and his accusation of the “stooges” trying to shut down Broadside reflect broader political disagreements between students and staff. This was the same year that GMC faculty member James Shea caused controversy on campus over his protests against the Vietnam War. In short, the 1970s were contentious times in the U.S. when generational conflicts often played out on college campuses.
 
 This event speaks to national trends of radical youth counterculture in the 1970s, mostly associated with protesting the Vietnam War, participating in the sex revolution, supporting the Black Panther movement, and questioning authority, especially on college campuses. The insults about Cassedy's long "hippy hair" and his accusation of the "stooges" trying to shut down Broadside reflect broader political disagreements between students and staff. This was the same year that GMC faculty member James Shear caused controversy on campus over his protests against the Vietnam War. In short, the 1970s were contentious times in the U.S. when generational conflicts often played out on college campuses.
 
