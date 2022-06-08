@@ -1,14 +1,14 @@
 ---
-title: "Student Housing at George Mason"
+title: "The Perkins and Will Student Apartments at George Mason"
 date: 2022-05-10
 updated: 2022-05-10
 author: "Catalina Mayer"
-abstract: "A piece of abstract text..."
+abstract: "Student housing built in the 1970s transforms George Mason from a commuter college to a traditional campus."
 script: viz/common/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
-thumbnail: gmu_footprints.png
-thumbdesc: "A screenshot showing..."
+thumbnail: unfinishedconstruction.png
+thumbdesc: "Construction in progress on the future student apartments."
 startingLon: -77.313740
 startingLat: 38.831826
 defaultZoom: 14
