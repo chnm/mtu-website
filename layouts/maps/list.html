@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{- partial "head.html" . -}}
+
+  <body>
+    {{- partial "header.html" . -}} {{.Content}}
+    <main class="container mx-auto px-4 py-24">
+
+      <h2>{{ .Page.Title }}</h2>
+
+      {{ .Content }}
+
+      <div class="h-full flex flex-col gap-5 items-left bg-white">
+        {{ range .Pages }}
+        <!-- Card 1 -->
+        <card class="w-[40rem] py-7 px-5">
+          <div class="grid grid-cols-6 gap-3">
+            <!-- Image -->
+            <div class="col-span-2">
+              <img
+                src="{{ .Permalink }}/{{.Params.thumbnail}}"
+                title="{{.Params.thumbdesc}}"
+              />
+            </div>
+
+            <!-- Description -->
+            <div class="col-span-4">
+              <h2 class="text-gray-700 font-bold">
+                <a href="{{.Permalink}}">{{.Title}}</a>
+              </h2>
+              <p class="text-gray-500">{{.Params.author}}</p>
+              <p class="text-gray-500 mt-4">{{.Params.abstract}}</p>
+            </div>
+          </div>
+        </card>
+        <hr />
+        {{end}}
+      </div>
+    </main>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>
