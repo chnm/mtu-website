@@ -74,6 +74,13 @@ audio {
   @apply text-7xl;
 }
 
+blockquote {
+  @apply font-serif text-lg;
+  border-left: 4px solid #529Ecc;
+  @apply ml-4;
+  @apply pl-4;
+}
+
 .footnote-ref {
   @apply font-bold text-rose-700;
 }
