@@ -23,7 +23,7 @@ map.on("style.load", () => {
   // load geojson data
   map.addSource("gmu", {
     type: "geojson",
-    data: "gmufootprints.geojson",
+    data: "gmu-footprints.geojson",
   });
 
   map.addLayer({
