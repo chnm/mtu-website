@@ -8,7 +8,7 @@ script: viz/mallory-house/main.js
 styles: viz/mallory-house/style.css
 layout: visualization
 thumbnail: "5 cartoon.jpg"
-thumbdesc: "A drawing critical of the student newspaper *Broadside*."
+thumbdesc: "A drawing critical of the student newspaper Broadside"
 startingLon: -77.312316
 startingLat: 38.832571
 defaultZoom: 17
