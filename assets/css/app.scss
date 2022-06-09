@@ -8,21 +8,24 @@ html {
 
 /* Typography */
 
-h2 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin: 0 0 1.5rem;
+a {
+  @apply text-indigo-600 hover:text-indigo-700 transition duration-300 ease-in-out;
+}
+
+a:hover {
+  @apply text-indigo-800;
 }
 
 p {
   line-height: 1.5;
-  margin: 0 0 1.5rem;
-  @apply font-serif text-lg;
+  @apply font-serif text-lg mt-0 mb-4 leading-relaxed;
 }
 
-a {
-  @apply text-indigo-600 hover:text-indigo-700 transition duration-300 ease-in-out;
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1.5rem 0 0.5rem;
 }
 
 .divider {
@@ -41,6 +44,30 @@ a {
 /*#visualization {
   @apply w-full h-screen;
 }*/
+
+label.timeline-label {
+  display: block;
+  margin: 0;
+  font-size: .975rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #0a0a0a;
+}
+
+.cell {
+  width: 60%;
+}
+
+input[type=range] {
+  width: 100%;
+}
+
+.float-left {
+  float: left!important;
+}
+.float-right {
+  float: right!important;
+}
 
 #menu {
   padding: 10px;

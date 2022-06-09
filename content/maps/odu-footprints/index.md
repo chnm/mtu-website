@@ -1,11 +1,11 @@
 ---
-title: "Building Footprints of George Mason University"
-date: 2022-05-31
-updated: 2022-05-31
+title: "Building Footprints of Old Dominion University"
+date: 2022-06-09
+updated: 2022-06-09
 author: "Jason Heppler"
 abstract: "A piece of abstract text..."
-script: maps/footprints/main.js
-styles: maps/footprints/style.css
+script: maps/odu-footprints/main.js
+styles: maps/odu-footprints/style.css
 layout: maps
 thumbnail: gmu_footprints.png
 thumbdesc: "A screenshot showing..."
@@ -15,16 +15,20 @@ Whatever put a bird on it cray pour-over selfies tbh, yr man bun kickstarter gen
 
 Leggings hot chicken brunch cornhole YOLO farm-to-table master cleanse forage vinyl yuccie sustainable. Lomo banjo meh, umami food truck you probably haven't heard of them semiotics kogi ugh. Migas actually tumblr dreamcatcher la croix ugh vinyl ethical sriracha raw denim jean shorts lo-fi.
 
-<label for="year-slider" id="year-range">1964</label><br/>
-<input id="year-slider"
-    type="range" 
-    min="1964" 
-    max="2021" 
-    step="1" 
-    value="0"
-    oninput="document.getElementById('year-range').innerHTML = this.value;"
-    class="w-3/4 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-<div id="visualization" style="height:500px; width:100%"></div>
+<div class="cell">
+    <label for="year-slider" id="year-range" class="timeline-label" style="font-size: 1.8rem;">1936</label>
+    <label for="year-start" class="timeline-label float-left">1936</label>
+    <label for="year-end" class="timeline-label float-right">2021</label>
+    <input id="year-slider"
+        type="range" 
+        min="1936" 
+        max="2021"
+        step="1" 
+        value="0"
+        oninput="document.getElementById('year-range').innerHTML = this.value;"
+        class="w-3/4 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+</div>
+<div id="visualization" style="height:500px; width:100%; margin-bottom: 2em;"></div>
 
 Cronut ennui tote bag, before they sold out kitsch vinyl hashtag swag ugh poutine vice activated charcoal. Knausgaard fixie semiotics pour-over, direct trade jean shorts dreamcatcher mustache. Venmo tousled 90's, artisan poutine blog gentrify vaporware fashion axe you probably haven't heard of them. Blue bottle ramps post-ironic single-origin coffee fixie hoodie chambray authentic iPhone. Sustainable literally pabst af. Asymmetrical umami deep v selfies enamel pin.
 

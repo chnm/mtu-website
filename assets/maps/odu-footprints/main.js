@@ -3,8 +3,8 @@ mapboxgl.accessToken = "pk.eyJ1IjoiaGVwcGxlcmoiLCJhIjoiMjNqTEVBNCJ9.pGqKqkUDlcFm
 const map = new mapboxgl.Map({
   container: "visualization",
   style: "mapbox://styles/mapbox/streets-v11", // style URL
-  center: [-77.30871, 38.830272],
-  zoom: 15,
+  center: [-76.305456, 36.885370],
+  zoom: 14,
 });
 
 // disable map zoom when using scroll
@@ -13,26 +13,26 @@ map.scrollZoom.disable();
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
-// build a year array between 1964 and 2007
+// build a year array between 1936 and 2007
 const years = [];
-for (let i = 1964; i <= 2021; i++) {
+for (let i = 1936; i <= 2021; i++) {
   years.push(i);
 }
 
 map.on("style.load", () => {
   // load geojson data
-  map.addSource("gmu", {
+  map.addSource("odu", {
     type: "geojson",
-    data: "gmu-footprints.geojson",
+    data: "odu-footprints.geojson",
   });
 
   map.addLayer({
     id: "footprints",
     type: "fill",
-    source: "gmu",
+    source: "odu",
     layout: {},
     paint: {
-      "fill-color": "brown",
+      "fill-color": "rgba(195, 60, 84, 1)",
       "fill-opacity": 0.8,
     },
   });
@@ -41,7 +41,9 @@ map.on("style.load", () => {
   map.on('click', 'footprints', (e) => {
     new mapboxgl.Popup()
     .setLngLat(e.lngLat)
-    .setHTML(e.features[0].properties.NAME)
+    // parse the date property and get the year
+    // .setHTML(`<p>e.features[0].properties.NAME <br/> Construction date: ${e.features[0].properties.date.substring(0, 4)}</p>`)
+    .setHTML(e.features[0].properties.name + "<br> Year constructed: " + e.features[0].properties.START_DATE.substring(0, 4))
     .addTo(map);
     });
 
@@ -65,8 +67,6 @@ map.on("style.load", () => {
     const year = yearSelect.valueAsNumber;
     // append -01-01 to the year to get the start date
     const yearStart = `${year}-01-01`;
-    // append -12-31 to the year to get the end date
-    const yearEnd = `${year}-12-31`;
 
     // filter the geojson data to only include the buildings for the selected year and all previous years
     const queryFilter = [
@@ -74,11 +74,11 @@ map.on("style.load", () => {
       ["<=", ["get", "START_DATE"], yearStart],
     ];
     map.setFilter("footprints", queryFilter);
-  });
-});
 
-// Watch for the year-slider to change and update the 
-// year-range label with the value. 
-document.getElementById('year-slider').addEventListener('change', function(e) {
-  document.getElementById('year-range').innerHTML = e.target.value;
+    // Watch for the year-slider to change and update the 
+    // year-range label with the value. 
+    yearSelect.addEventListener("change", () => {
+      document.getElementById("year-range").innerHTML = `${yearSelect.value}`;
+    });
+  });
 });
