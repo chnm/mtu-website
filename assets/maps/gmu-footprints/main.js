@@ -15,7 +15,7 @@ map.addControl(new mapboxgl.NavigationControl());
 
 // build a year array between 1964 and 2007
 const years = [];
-for (let i = 1964; i <= 2021; i++) {
+for (let i = 1960; i <= 2021; i++) {
   years.push(i);
 }
 
@@ -32,7 +32,7 @@ map.on("style.load", () => {
     source: "gmu",
     layout: {},
     paint: {
-      "fill-color": "brown",
+      "fill-color": "rgba(195, 60, 84, 1)",
       "fill-opacity": 0.8,
     },
   });
@@ -41,7 +41,9 @@ map.on("style.load", () => {
   map.on('click', 'footprints', (e) => {
     new mapboxgl.Popup()
     .setLngLat(e.lngLat)
-    .setHTML(e.features[0].properties.NAME)
+    // parse the date property and get the year
+    // .setHTML(`<p>e.features[0].properties.NAME <br/> Construction date: ${e.features[0].properties.date.substring(0, 4)}</p>`)
+    .setHTML(e.features[0].properties.NAME + "<br> Year constructed: " + e.features[0].properties.START_DATE.substring(0, 4))
     .addTo(map);
     });
 
