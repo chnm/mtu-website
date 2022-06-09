@@ -4,7 +4,7 @@ const map = new mapboxgl.Map({
   container: "visualization",
   style: "mapbox://styles/mapbox/streets-v11", // style URL
   center: [-77.30871, 38.830272],
-  zoom: 15,
+  zoom: 14,
 });
 
 // disable map zoom when using scroll
