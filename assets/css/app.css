@@ -877,21 +877,6 @@ html {
 
 /* Typography */
 
-h2 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin: 0 0 1.5rem;
-}
-
-p {
-  line-height: 1.5;
-  margin: 0 0 1.5rem;
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 a {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));
@@ -903,8 +888,25 @@ a {
 }
 
 a:hover {
-  --tw-text-opacity: 1;
   color: rgb(67 56 202 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(55 48 163 / var(--tw-text-opacity));
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.625;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1.5rem 0 0.5rem;
 }
 
 .divider {
@@ -923,6 +925,31 @@ a:hover {
 /*#visualization {
   @apply w-full h-screen;
 }*/
+
+label.timeline-label {
+  display: block;
+  margin: 0;
+  font-size: .975rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #0a0a0a;
+}
+
+.cell {
+  width: 60%;
+}
+
+input[type=range] {
+  width: 100%;
+}
+
+.float-left {
+  float: left!important;
+}
+
+.float-right {
+  float: right!important;
+}
 
 #menu {
   padding: 10px;
