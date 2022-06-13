@@ -37,15 +37,15 @@ It was offensive for white women to be jokingly “bought” for dates and domes
 
 *Were “slave sales” unique to these colleges?* “Slave sale” fundraisers occured at other institutions <span class="notation" data-id="1" data-zoom="8" data-lat="37.580297" data-lon="-78.429573">throughout Virginia</span> and the United States. For example, “slave auctions” were organized as early as 1961 at Fairfax’s Lee High School and Scottsville High in Scottsville, Virginia.[^1]
 
-[^1] *Farmville Herald*, March 31, 1961. 
+[^1]: *Farmville Herald*, March 31, 1961. 
 
 Some Virginia colleges such as Clinch Valley College in Wise, Virginia, organized similar events as late as 1984.[^2]
  
-[^2] *Highland Cavalier*, March 5, 1984.
+[^2]: *Highland Cavalier*, March 5, 1984.
 
 Even churches in Virginia participated: St. Patrick’s Episcopal Church in Falls Church advertised a “slave auction” in 1970.[^3]
 
-[^3] *Northern Virginia Sun*, April 25, 1970.
+[^3]: *Northern Virginia Sun*, April 25, 1970.
 
 {{< figure id="img6" image="NVS1970-04-25.jpg" caption="Figure 6. An article in *Northern Virginia Sun* advertises a youth car wash and a “slave auction” at a church in Falls Church, Virginia in 1970. *Northern Virginia Sun*, April 25, 1970." >}}
 
@@ -53,7 +53,7 @@ Newspaper articles typically mention faculty support or adult supervision, indic
 
 *Why and how were mock “slave sales” offensive?* In a forthcoming book titled *The Souls of White Jokes*, sociologist [Raúl Pérez](https://www.sup.org/books/title/?id=30308) argues that white Americans have historically used humor as a way to racially exclude and ridicule African Americans and people of color from society.[^4]
 
-[^4] Raúl Pérez. *T*he Souls of White Jokes: How Racist Humor Fuels White Supremacy* (Stanford, CA: Stanford University Press, 2022).
+[^4]: Raúl Pérez. *The Souls of White Jokes: How Racist Humor Fuels White Supremacy* (Stanford, CA: Stanford University Press, 2022).
 
 Campus “slave sales” were key examples of such racial ridicule. They recreated the degradation and trauma of antebellum slave auctions with an air of mockery: student auctioneers called people “slaves” and “masters” at these events, and participants dressed up with props such as banjos and sheets over their heads. 
 
@@ -63,11 +63,11 @@ Campus “slave sales” were key examples of such racial ridicule. They recreat
 
 Historically, “slave auctions” sold enslaved people to white enslavers, which immorally and inhumanely placed economic values on enslaved human beings.[^5]
  
-[^5] See more on the “chattel principle.” Walter Johnson, *Soul by Soul: Life Inside the Antebellum Trade Market* (Cambridge, MA: Harvard University Press: 1999).
+[^5]: See more on the “chattel principle.” Walter Johnson, *Soul by Soul: Life Inside the Antebellum Trade Market* (Cambridge, MA: Harvard University Press: 1999).
 
 The historical “auction block” was a site of trauma, pain, and family separation for enslaved people.[^6]
 
-[^6] Daina Berry, *Price for a Pound of Flesh: The Value of the Enslaved, From Womb to Grave, in the Building of a Nation* (London, UK: Penguin Random House, 2017).
+[^6]: Daina Berry, *Price for a Pound of Flesh: The Value of the Enslaved, From Womb to Grave, in the Building of a Nation* (London, UK: Penguin Random House, 2017).
 
 No doubt white college students joking about this painful history was deeply troubling and psychologically harmful to African Americans. Printed on the very same frontpage of the *Broadside* that featured an advertisement for a TKE fundraiser with a female student holding a sign that read “please buy me,” was an article about the Mason student “Anarchist Club” calling for legal action to stop campus “slave sales.” Though the fundraisers were common throughout campus, not every student condoned them–some recognized they were offensive and even tried to stop them.
 
@@ -77,16 +77,16 @@ No doubt white college students joking about this painful history was deeply tro
 
 *How does this relate more largely to racism on campus?* Racial ridicule on campuses occurred within a wider context of racial exclusion institutionally on these campuses. Faculty were involved in “slave auctions” at both GMC and ODC, which points to the troubling way professors also participated and condoned racial ridicule on campus. At Mason in the 1960s and 1970s, students and faculty were predominantly white,[^7]
 
-[^7] *The Washington Post*, May 9, 1970.
+[^7]: *The Washington Post*, May 9, 1970.
 
 and the college faced legal challenges for not complying with the 1964 Civil Rights Act, as seen in the [1971 Civil Rights Report](https://silverbox.gmu.edu/legacy/s/blnd/page/thefinalfour) conducted by United States Commission on Civil Rights Virginia State Advisory Committee. The issue of racism at both colleges was bigger than the students that organized them.
 
 *What do these events mean for us today?* As the first English colony established in 1607, Virginia has a long history of slavery.[^8]
 
-[^8] Philip D. Morgan, *Slave Counterpoint: Black Culture in the Eighteenth-Century Chesapeake and Lowcountry* (University of North Carolina Press, 1985). 
+[^8]: Philip D. Morgan, *Slave Counterpoint: Black Culture in the Eighteenth-Century Chesapeake and Lowcountry* (University of North Carolina Press, 1985). 
 
 Its legacies continue in material ways today, specifically through racial inequity. For example, recent projects of George Mason’s [Black Lives Next Door](https://silverbox.gmu.edu/legacy/s/blnd/page/home) and Old Dominion’s [Mapping Lambert’s Point](https://www.mappinglambertspoint.org/) describe racial consequences of campus construction such as displacement. Culturally, Virginia’s legacies of slavery also continue to reverberate today, specifically through white supremacy and racial ridicule. In 2019, Governor of Virginia Ralph Northam faced public criticism over a photo of him in blackface from the 1980s.[^9]
 
-[^9] *New York Times*, May 22, 2019.
+[^9]: *The New York Times*, May 22, 2019.
 
 The history of less subtle forms of racial ridicule such as mock “slave sales” are also important to study today. College events such as “slave sales” had both cultural and material significance to campuses, and remind us that racial ridicule remains a troubling issue today.
