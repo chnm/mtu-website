@@ -7,7 +7,7 @@ abstract: "In the 1960s and early 1970s, students at both GMC and ODC organized 
 script: viz/slave-sales/main.js
 styles: viz/slave-sales/style.css
 layout: visualization
-thumbnail: gmu_footprints.png
+thumbnail: GunstonLedger-Nov-1963 copy.png
 thumbdesc: "A screenshot showing..."
 startingLon: -77.312316
 startingLat: 38.832571 
