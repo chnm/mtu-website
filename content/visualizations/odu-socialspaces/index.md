@@ -7,8 +7,8 @@ abstract: "History of three social gathering spots at Old Dominion University."
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
-thumbnail: "TBD"
-thumbdesc: "TBD"
+thumbnail: "BudsEmporium-1950s (1).jpg"
+thumbdesc: "Bud's Emporium at ODU"
 startingLon: -77.313740
 startingLat: 38.831826
 defaultZoom: 15

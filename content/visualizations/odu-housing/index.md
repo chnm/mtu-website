@@ -7,8 +7,8 @@ abstract: "History of Old Dominion’s first three campus residence halls."
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
 layout: visualization
-thumbnail: "TBD"
-thumbdesc: "TBD"
+thumbnail: "GreshamHall-GameRoom-1990s.jpg"
+thumbdesc: "Gresham Hall Game Room"
 startingLon: -77.313740
 startingLat: 38.831826
 defaultZoom: 15
