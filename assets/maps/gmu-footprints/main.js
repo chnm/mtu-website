@@ -43,7 +43,7 @@ map.on("style.load", () => {
     .setLngLat(e.lngLat)
     // parse the date property and get the year
     // .setHTML(`<p>e.features[0].properties.NAME <br/> Construction date: ${e.features[0].properties.date.substring(0, 4)}</p>`)
-    .setHTML(e.features[0].properties.NAME + "<br> Year constructed: " + e.features[0].properties.START_DATE.substring(0, 4))
+    .setHTML("<strong>" + e.features[0].properties.NAME + "</strong>" + "<br> Year constructed: " + e.features[0].properties.START_DATE.substring(0, 4))
     .addTo(map);
     });
 
@@ -76,6 +76,46 @@ map.on("style.load", () => {
       ["<=", ["get", "START_DATE"], yearStart],
     ];
     map.setFilter("footprints", queryFilter);
+  });
+
+  // Animating the year slider and map
+  const playButton = document.getElementById("playTimeline");
+  let timer = null;
+
+  // update the slider and map
+  function yearUpdate() {
+    const year = yearSelect.valueAsNumber;
+    yearSelect.value = year + 1;
+    yearSelect.dispatchEvent(new Event("change"));
+  }
+
+  // to handle pausing, we either set timer to null (if paused) or set it to a timer
+  function setTimer() {
+    if (timer) {
+      playButton.innerHTML = "Play";
+      clearInterval(timer);
+      timer = null;
+    } else {
+      playButton.innerHTML = "Pause";
+      timer = setInterval(yearUpdate, 1000);
+    }
+    return false;
+  }
+
+  // watch for a user to select "play" or "pause"
+  playButton.addEventListener("click", () => {
+    setTimer();
+  });
+
+  // When the 'reset' button is pressed (.resetTimeline), the year slider will reset to the default map view.
+  const resetTimeline = document.getElementById("resetTimeline");
+  resetTimeline.addEventListener("click", () => {
+    clearInterval(timer);
+    timer = null;
+    yearSelect.value = 1960;
+    document.getElementById('year-range').innerHTML = 1960;
+    // reset mapbox filters to show all buildings
+    map.setFilter("footprints", ["all"]);
   });
 });
 
