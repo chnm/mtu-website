@@ -15,20 +15,20 @@
         <!-- Card 1 -->
         <card class="w-[40rem] py-7 px-5">
           <div class="grid grid-cols-6 gap-3">
-            <!-- Image -->
-            <div class="col-span-2">
+            <!-- thumbnail -->
+            <div class="col-span-2 pt-8">
               <img
                 src="{{ .Permalink }}/{{.Params.thumbnail}}"
                 title="{{.Params.thumbdesc}}"
               />
             </div>
 
-            <!-- Description -->
+            <!-- description -->
             <div class="col-span-4">
               <h2 class="text-gray-700 font-bold">
                 <a href="{{.Permalink}}">{{.Title}}</a>
               </h2>
-              <p class="text-gray-500">{{.Params.author}}</p>
+              <p class="text-gray-500 uppercase text-sm">by {{.Params.author}}</p>
               <p class="text-gray-500 mt-4">{{.Params.abstract}}</p>
             </div>
           </div>
