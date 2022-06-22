@@ -1,8 +1,8 @@
 ---
-title: "Introducing Mapping the University"
-author: Jessica Mack
+title: "Designing Mapping the University"
+author: Jason Heppler
 avatar: "https://api.lorem.space/image/face?w=1000&h=800" 
-date: 2022-03-30
+date: 2022-06-22
 draft: false
 image: ""
 imagealt: ""
