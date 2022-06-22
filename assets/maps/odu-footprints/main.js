@@ -13,7 +13,7 @@ map.scrollZoom.disable();
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
-// build a year array between 1936 and 2007
+// build a year array between 1936 and 2021
 const years = [];
 for (let i = 1936; i <= 2021; i++) {
   years.push(i);
@@ -41,9 +41,7 @@ map.on("style.load", () => {
   map.on('click', 'footprints', (e) => {
     new mapboxgl.Popup()
     .setLngLat(e.lngLat)
-    // parse the date property and get the year
-    // .setHTML(`<p>e.features[0].properties.NAME <br/> Construction date: ${e.features[0].properties.date.substring(0, 4)}</p>`)
-    .setHTML(e.features[0].properties.name + "<br> Year constructed: " + e.features[0].properties.START_DATE.substring(0, 4))
+    .setHTML("<strong>" + e.features[0].properties.name + "</strong>" + "<br> Year constructed: " + e.features[0].properties.START_DATE.substring(0, 4))
     .addTo(map);
     });
 
@@ -57,7 +55,7 @@ map.on("style.load", () => {
   // when it leaves the states layer.
   map.on('mouseleave', 'footprints', () => {
     map.getCanvas().style.cursor = '';
-    });
+  });
 
   // When the year value is changed, update the map with the building footprints
   // for the selected year and all previous years. In the geojson data, the year 
@@ -74,11 +72,52 @@ map.on("style.load", () => {
       ["<=", ["get", "START_DATE"], yearStart],
     ];
     map.setFilter("footprints", queryFilter);
-
-    // Watch for the year-slider to change and update the 
-    // year-range label with the value. 
-    yearSelect.addEventListener("change", () => {
-      document.getElementById("year-range").innerHTML = `${yearSelect.value}`;
-    });
   });
+
+    // Animating the year slider and map
+  const playButton = document.getElementById("playTimeline");
+  let timer = null;
+
+  // update the slider and map
+  function yearUpdate() {
+    const year = yearSelect.valueAsNumber;
+    yearSelect.value = year + 1;
+    yearSelect.dispatchEvent(new Event("change"));
+  }
+
+  // to handle pausing, we either set timer to null (if paused) or set it to a timer
+  function setTimer() {
+    if (timer) {
+      playButton.innerHTML = "Play";
+      clearInterval(timer);
+      timer = null;
+    } else {
+      playButton.innerHTML = "Pause";
+      timer = setInterval(yearUpdate, 1000);
+    }
+    return false;
+  }
+
+  // watch for a user to select "play" or "pause"
+  playButton.addEventListener("click", () => {
+    setTimer();
+  });
+
+  // When the 'reset' button is pressed (.resetTimeline), the year slider will reset to the default map view.
+  const resetTimeline = document.getElementById("resetTimeline");
+  resetTimeline.addEventListener("click", () => {
+    clearInterval(timer);
+    timer = null;
+    yearSelect.value = 1936;
+    document.getElementById('year-range').innerHTML = "1936-2021";
+    playButton.innerHTML = "Play";
+    // reset mapbox filters to show all buildings
+    map.setFilter("footprints", ["all"]);
+  });
+});
+
+// Watch for the year-slider to change and update the 
+// year-range label with the value. 
+document.getElementById('year-slider').addEventListener('change', function(e) {
+  document.getElementById('year-range').innerHTML = e.target.value;
 });
