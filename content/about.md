@@ -16,15 +16,18 @@ Steve Bookman, Co-PI and University Archivist, Old Dominion University
 
 Laura Brannan Fretwell, Graduate Research Assistant, RRCHNM
 
-Greta Swain, Graduate Research Assistant, RRCHNM
+Jason Heppler, Senior Web Developer, RRCHNM
 
 Catalina Mayer, Undergraduate Research Assistant, RRCHNM
 
 Joseph Moore, Undergraduate Research Assistant, RRCHNM
 
+Greta Swain, Graduate Research Assistant, RRCHNM
+
 Anna Woloshin, Undergraduate Research Assistant, ODU
 
 Vanessa Baez, Graduate Intern, Department of Geography and Geoinformation Science, GMU
+
 
 ## Roy Rosenzweig Center for History and New Media Team
 
