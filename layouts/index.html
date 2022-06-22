@@ -1,11 +1,45 @@
 {{ define "main" }}
-<main class="container mx-auto items-center flex h-screen">
-    <div class="w-full md:w-8/12 lg:w6/12 xl:w-6/12 px-4">
-        <div class="pt-32 sm:pt-0">
-            <h1 class="inline-block text-2xl sm:text-3xl font-semibold text-slate-900 tracking-tight dark:text-slate-200">Mapping the University</h1>
-            <p class="mt-4 text-lg leading-relaxed text-slate-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sed blandit libero volutpat sed cras ornare. Sed elementum tempus egestas sed sed risus pretium. Tincidunt tortor aliquam nulla facilisi. Condimentum vitae sapien pellentesque habitant. Quisque sagittis purus sit amet volutpat. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Sagittis orci a scelerisque purus. Arcu non odio euismod lacinia at quis risus sed. Augue eget arcu dictum varius duis at consectetur lorem. Faucibus pulvinar elementum integer enim neque volutpat ac. Commodo sed egestas egestas fringilla phasellus. Tellus orci ac auctor augue mauris augue neque gravida. At tellus at urna condimentum. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Congue mauris rhoncus aenean vel elit. Facilisi nullam vehicula ipsum a. Lorem dolor sed viverra ipsum nunc aliquet.</p>
+<div class="py-32" style="background-image: url(https://api.lorem.space/image/fashion?w=1000&h=800);"
+>
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-2 text-slate-800">
+      Mapping the University
+    </h2>
+    <h3 class="text-2xl mb-8 text-slate-600">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sed blandit libero volutpat sed cras ornare. Sed elementum tempus egestas sed sed risus pretium. Tincidunt tortor aliquam nulla facilisi. Condimentum vitae sapien pellentesque habitant. Quisque sagittis purus sit amet volutpat. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Sagittis orci a scelerisque purus. Arcu non odio euismod lacinia at quis risus sed. Augue eget arcu dictum varius duis at consectetur lorem. Faucibus pulvinar elementum integer enim neque volutpat ac. Commodo sed egestas egestas fringilla phasellus. Tellus orci ac auctor augue mauris augue neque gravida. At tellus at urna condimentum. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Congue mauris rhoncus aenean vel elit. Facilisi nullam vehicula ipsum a. Lorem dolor sed viverra ipsum nunc aliquet.
+    </h3>
+  </div>
+</div>
 
-        </div>
+<section class="container mx-auto px-6 p-10">
+    <div class="flex items-center flex-wrap mb-20">
+      <div class="w-full md:w-1/2">
+        <h4 class="text-3xl text-gray-800 font-bold mb-3">Essays</h4>
+        <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="w-full md:w-1/2">
+        <img src="https://api.lorem.space/image/house" alt="Essays" />
+      </div>
     </div>
-</main>
+
+    <div class="flex items-center flex-wrap mb-20">
+      <div class="w-full md:w-1/2">
+        <img src="https://api.lorem.space/image/house" alt="Visualizations" />
+      </div>
+      <div class="w-full md:w-1/2 pl-10">
+        <h4 class="text-3xl text-gray-800 font-bold mb-3">Visualizations</h4>
+        <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+
+    <div class="flex items-center flex-wrap mb-20">
+      <div class="w-full md:w-1/2">
+        <h4 class="text-3xl text-gray-800 font-bold mb-3">Data</h4>
+        <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="w-full md:w-1/2">
+        <img src="https://api.lorem.space/image/house" alt="Data" />
+      </div>
+    </div>
+  </section>
 {{ end }}

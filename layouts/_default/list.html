@@ -13,13 +13,14 @@
             </div>
             <div class="medium-7 cell post-abstract">
                 <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
-                <div class="author">{{.Params.author}}</div>
+                <div class="author uppercase text-slate-600">{{.Params.author}}</div>
                 <p>{{.Params.abstract}}</p>
             </div>
             <div class="medium-3 cell post-thumbnail">
                 <img src="{{.Params.image}}" alt="{{.Params.imagealt}}">
             </div>
         </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto lg:my-4" />
         {{end}}
     </main>
     {{- partial "footer.html" . -}}

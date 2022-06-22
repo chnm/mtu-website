@@ -7,7 +7,7 @@ abstract: "A piece of abstract text..."
 script: maps/odu-footprints/main.js
 styles: maps/odu-footprints/style.css
 layout: maps
-thumbnail: gmu_footprints.png
+thumbnail: odu_footprints.png
 thumbdesc: "A screenshot showing..."
 ---
 
