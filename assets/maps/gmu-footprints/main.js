@@ -41,8 +41,6 @@ map.on("style.load", () => {
   map.on('click', 'footprints', (e) => {
     new mapboxgl.Popup()
     .setLngLat(e.lngLat)
-    // parse the date property and get the year
-    // .setHTML(`<p>e.features[0].properties.NAME <br/> Construction date: ${e.features[0].properties.date.substring(0, 4)}</p>`)
     .setHTML("<strong>" + e.features[0].properties.NAME + "</strong>" + "<br> Year constructed: " + e.features[0].properties.START_DATE.substring(0, 4))
     .addTo(map);
     });
@@ -57,7 +55,7 @@ map.on("style.load", () => {
   // when it leaves the states layer.
   map.on('mouseleave', 'footprints', () => {
     map.getCanvas().style.cursor = '';
-    });
+  });
 
   // When the year value is changed, update the map with the building footprints
   // for the selected year and all previous years. In the geojson data, the year 
@@ -113,7 +111,8 @@ map.on("style.load", () => {
     clearInterval(timer);
     timer = null;
     yearSelect.value = 1960;
-    document.getElementById('year-range').innerHTML = 1960;
+    document.getElementById('year-range').innerHTML = "1960-2021";
+    playButton.innerHTML = "Play";
     // reset mapbox filters to show all buildings
     map.setFilter("footprints", ["all"]);
   });

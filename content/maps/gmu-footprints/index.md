@@ -16,7 +16,7 @@ Whatever put a bird on it cray pour-over selfies tbh, yr man bun kickstarter gen
 Leggings hot chicken brunch cornhole YOLO farm-to-table master cleanse forage vinyl yuccie sustainable. Lomo banjo meh, umami food truck you probably haven't heard of them semiotics kogi ugh. Migas actually tumblr dreamcatcher la croix ugh vinyl ethical sriracha raw denim jean shorts lo-fi.
 
 <div class="cell">
-    <label for="year-slider" id="year-range" class="timeline-label" style="font-size: 1.8rem;">1960</label>
+    <label for="year-slider" id="year-range" class="timeline-label" style="font-size: 1.8rem;">1960-2021</label>
     <label for="year-start" class="timeline-label float-left">1960</label>
     <label for="year-end" class="timeline-label float-right">2021</label>
     <input id="year-slider"
@@ -29,8 +29,8 @@ Leggings hot chicken brunch cornhole YOLO farm-to-table master cleanse forage vi
         class="w-3/4 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
 </div>
 <div class="flex justify-center rounded-lg text-lg mb-4" role="group">
-    <button id="playTimeline" class="bg-sky-600 text-white active:bg-sky-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Play</button>
-    <button id="resetTimeline" class="bg-sky-600 text-white active:bg-sky-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 inline-block" type="button">Reset</button>
+    <button id="playTimeline" class="bg-sky-600 text-white active:bg-sky-600 hover:bg-sky-800 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Play</button>
+    <button id="resetTimeline" class="bg-sky-600 text-white active:bg-sky-600 hover:bg-sky-800 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 inline-block" type="button">Reset</button>
 </div>
 
 <div id="visualization" style="height:500px; width:100%; margin-bottom: 2em;"></div>
