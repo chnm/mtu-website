@@ -40,6 +40,6 @@ The campus residence that would mark the transition from the 1970s to the 1980s 
 
 {{< figure id="image7" image="PowhatanRodents-1979-11-05.jpg" caption="Figure 7. *Mace & Crown* Article About Powhatan Apartments, November 5, 1979" >}}
 
-{{< figure id="image8" image="PowhatanRodents-1979-11-05.jpg" caption="Figure 8. *Mace & Crown* Article Introducing Powhatan Apartments, March 19,1979" >}}
+{{< figure id="image8" image="HousingtoIncrease-1979-03-19.jpg" caption="Figure 8. *Mace & Crown* Article Introducing Powhatan Apartments, March 19,1979" >}}
 
 Each of these on-campus living opportunities, as well as an example of off-campus living in the 1960s and 1970s, transformed ODU and the experiences of its students. Rogers and Gresham, as the first residence halls, introduced on-campus housing for students, which facilitated ODU’s transition from a commuter school to a more residential one. Harrington House provided a more private and mature environment for women students who wished to become independent but still live with other students. The Powhatan Apartment sought to address ODU’s ever-present housing situation while also providing a more mature environment for college students. Each of these residences would shape how life was experienced at ODU well into the future and leave lasting impressions on the campus. 
