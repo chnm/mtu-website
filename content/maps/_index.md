@@ -2,4 +2,4 @@
 title: Maps
 ---
 
-The views here provide interactive visualizations of the campuses. 
+The views here provide interactive visualizations of the campuses....
