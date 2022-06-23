@@ -3,7 +3,7 @@
   {{- partial "head.html" . -}}
 
   <body>
-    {{- partial "header.html" . -}} {{.Content}}
+    {{- partial "header.html" . -}}
     <main class="container mx-auto px-4 py-24">
 
       <h2>{{ .Page.Title }}</h2>
@@ -11,7 +11,7 @@
       {{ .Content }}
 
       <div class="h-full flex flex-col gap-5 items-left bg-white">
-        {{ range .Pages }}
+        {{ range .Pages.ByParam "author" }}
         <!-- Card 1 -->
         <card class="w-[40rem] py-7 px-5">
           <div class="grid grid-cols-6 gap-3">
