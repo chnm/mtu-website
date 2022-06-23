@@ -4,9 +4,10 @@ date: 2022-03-30
 updated: 2022-03-30
 author: "Laura Brannan Fretwell"
 abstract: "One night in 1971, a conflict between a Mason student and staff member in a parking lot bordering campus revealed larger political issues in the United States around censorship, abortion rights, and university politics."
+place: George Mason University
 script: viz/mallory-house/main.js
 styles: viz/mallory-house/style.css
-layout: visualization
+layout: narratives
 thumbnail: "5 cartoon.jpg"
 thumbdesc: "A drawing critical of the student newspaper Broadside"
 startingLon: -77.312316

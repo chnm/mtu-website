@@ -4,9 +4,10 @@ date: 2022-06-09
 updated: 2022-06-09
 author: "Catalina Mayer"
 abstract: "In 1972, Mason built the Student Union Building, now known as SUB 1, to address the lack of student recreational spaces on campus."
+place: George Mason University
 script: viz/common/main.js
 styles: viz/mallory-house/style.css
-layout: visualization
+layout: narratives
 thumbnail: File Photos of buildings on campus 27.png
 thumbdesc: "The SUB 1 building on Mason's campus."
 startingLon: -77.313740

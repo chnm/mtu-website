@@ -4,9 +4,10 @@ date: 2022-05-12
 updated: 2022-05-12
 author: "Joseph Moore"
 abstract: "Internal university documents reveal a comprehensive timeline of the construction of George Mason's arena."
+place: George Mason University
 script: viz/common/main.js
 styles: viz/mallory-house/style.css
-layout: visualization
+layout: narratives
 thumbnail: arenathumbnail.jpg
 thumbdesc: "Mason's 1985 Commencement ceremony was held at the new Patriot Center Arena"
 startingLon: -77.313740

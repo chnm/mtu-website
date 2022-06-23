@@ -4,9 +4,10 @@ date: 2022-05-18
 updated: 2022-05-18
 author: "Laura Brannan Fretwell"
 abstract: "In the 1960s and early 1970s, students at both GMC and ODC organized offensive mock “slave sale” public fundraising events that were highly visible and common throughout both campuses and other institutions throughout Virginia and the United States."
+place: [George Mason University, Old Dominion University]
 script: viz/slave-sales/main.js
 styles: viz/slave-sales/style.css
-layout: visualization
+layout: narratives
 thumbnail: GunstonLedger-Nov-1963 copy.png
 thumbdesc: "A newspaper article about an offensive “slave day” fundraiser at Mason."
 startingLon: -77.312316

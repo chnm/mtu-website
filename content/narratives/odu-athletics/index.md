@@ -4,9 +4,10 @@ date: 2022-04-14
 updated: 2022-04-14
 author: "Steven Bookman"
 abstract: "A history of athletics at Old Dominion University as seen through its early stadium, gymnasiums, and other athletic facilities."
+place: Old Dominion University
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
-layout: visualization
+layout: narratives
 thumbnail: "FootballTeam-Gallaudet-1935.jpg"
 thumbdesc: "A football game at Bain Field"
 startingLon: -76.305456

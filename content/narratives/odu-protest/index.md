@@ -4,9 +4,10 @@ date: 2022-06-16
 updated: 2022-06-16
 author: "Anna Woloshin"
 abstract: "Examples of student protests at Old Dominion University in the 1960s and 1970s."
+place: Old Dominion University
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
-layout: visualization
+layout: narratives
 thumbnail: "oduphotos_10563_full.jpg"
 thumbdesc: "Save ODU Homecoming Parade, 1970"
 startingLon: -77.313740

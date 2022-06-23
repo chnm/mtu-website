@@ -4,9 +4,10 @@ date: 2022-06-16
 updated: 2022-06-16
 author: "Steven Bookman"
 abstract: "History of Old Dominion’s first three campus residence halls."
+place: Old Dominion University
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
-layout: visualization
+layout: narratives
 thumbnail: "GreshamHall-GameRoom-1990s.jpg"
 thumbdesc: "Gresham Hall Game Room"
 startingLon: -77.313740

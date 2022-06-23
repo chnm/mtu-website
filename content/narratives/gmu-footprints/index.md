@@ -4,9 +4,10 @@ date: 2022-03-18
 updated: 2022-03-18
 author: "Jason Heppler"
 abstract: "A piece of abstract text..."
+place: George Mason University
 script: viz/gmu-footprints/main.js
 styles: viz/gmu-footprints/style.css
-layout: visualization
+layout: narratives
 thumbnail: gmu_footprints.png
 thumbdesc: "A screenshot showing..."
 ---

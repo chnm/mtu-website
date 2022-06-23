@@ -4,9 +4,10 @@ date: 2022-06-09
 updated: 2022-06-09
 author: "Steven Bookman"
 abstract: "Early women's history and the development of day care at Old Dominion University."
+place: Old Dominion University
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
-layout: visualization
+layout: narratives
 thumbnail: "WilsonChiangonPlayground-1994.jpg"
 thumbdesc: "A child on the ODU playground."
 startingLon: -77.313740

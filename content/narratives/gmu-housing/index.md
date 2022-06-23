@@ -4,9 +4,10 @@ date: 2022-05-10
 updated: 2022-05-10
 author: "Catalina Mayer"
 abstract: "Student housing built in the 1970s transforms George Mason from a commuter college to a traditional campus."
+place: George Mason University
 script: viz/common/main.js
 styles: viz/mallory-house/style.css
-layout: visualization
+layout: narratives
 thumbnail: unfinishedconstruction.png
 thumbdesc: "Construction in progress on the future student apartments."
 startingLon: -77.313740

@@ -4,9 +4,10 @@ date: 2022-03-18
 updated: 2022-03-18
 author: "Steven Bookman"
 abstract: "In 1930, Old Dominion University was founded and a site was chosen for its first buildings."
+place: Old Dominion University
 script: viz/odu-site/main.js
 styles: viz/odu-site/style.css
-layout: visualization
+layout: narratives
 thumbnail: "SiteSelection-OldLarchmontSchool-1930.jpg"
 thumbdesc: "Old Larchmont School"
 startingLon: -76.305456
