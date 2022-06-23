@@ -29,7 +29,7 @@ The University at this time was in great shape. Enrollment had been through the 
 
 By 1982, the funding for the Arena had been secured from the General Assembly. Following the approval of funding, the University planning team hit the ground running. By the end of 1982, the site had been selected, an architect hired, and the Master Plan had been approved. 
 
-{{< figure id="img2" image="Picture 4.jpg" caption="Figure 2. Architectural plans for the university arena. Facilities Records, Special Collections and Research Center (SCRC), George Mason University, Box 64, Folder 12, 1981." >}}
+{{< figure id="img2" image="R0017_B064_F012_001.jpg" caption="Figure 2. Architectural plans for the university arena. Facilities Records, Special Collections and Research Center (SCRC), George Mason University, Box 64, Folder 12, 1981." >}}
 
 The following year, 1983, proved to be an important year in the process of building the arena. There was an error that was brought to the Board of Visitors' attention in January: the arena’s gross square footage was counted improperly. This resulted in a $5.2 million increase in construction costs from $11.5 to $16.7 million.[^3] Following the resolution of the issue, 1983 proved to be a really productive year in the process. By May, the working drawings were completed. The end of the year saw construction begin, the land had been cleared, seats and equipment decisions were beginning to be made, and traffic impact on the community was addressed by the Land Use Committee.[^4]
 
