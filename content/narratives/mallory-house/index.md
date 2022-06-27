@@ -10,12 +10,12 @@ styles: viz/mallory-house/style.css
 layout: narratives
 thumbnail: "5 cartoon.jpg"
 thumbdesc: "A drawing critical of the student newspaper Broadside"
-startingLon: -77.312316
-startingLat: 38.832571
+startingLon: -77.308153
+startingLat: 38.830740
 defaultZoom: 17
 ---
 
-<span class="notation" data-id="1" data-zoom="17" data-lat="38.832571" data-lon="-77.312316">A shattered glass door.</span> Insults exchanged such as "stooge," "commie," and "hooligan."[^1] Punches thrown. This describes a scene in a parking lot on the edge of campus at George Mason College in 1971, which was then a branch college of the University of Virginia. A verbal then physical fight occurred between a male student and a male staff member. There were conflicting reports about who threw the first punch, but both sides agreed that the altercation began over a dispute about a parking permit.
+A shattered glass door. Insults exchanged such as "stooge," "commie," and "hooligan."[^1] Punches thrown. This describes <span class="notation" data-id="1" data-zoom="17" data-lat="38.832571" data-lon="-77.312316">a scene in a parking lot on the edge of campus</span> at George Mason College in 1971, which was then a branch college of the University of Virginia. A verbal then physical fight occurred between a male student and a male staff member. There were conflicting reports about who threw the first punch, but both sides agreed that the altercation began over a dispute about a parking permit.
 
 [^1]: *Broadside* Dec 6, 1971.
 
