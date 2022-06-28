@@ -10,9 +10,9 @@ styles: viz/gmu-lorraine-brown/style.css
 layout: narratives
 thumbnail: Broadside-LB-cropped.png
 thumbdesc: "A portrait in 1974 of Lorraine Brown, Professor of English at Mason."
-startingLon: -77.312316
-startingLat: 38.832571  
-defaultZoom: 17
+startingLon: -77.313740
+startingLat: 38.831826 
+defaultZoom: 14
 ---
 Today, Dr. Lorraine Brown, who was a professor in George Mason’s English department for over 42 years, is lauded as an [early founder of the school](https://chss.gmu.edu/articles/2287). She is mostly remembered for bringing the historic treasure of the [Federal Theater Project collection](http://ahistoryofmason.gmu.edu/exhibits/show/independence/contents/ftpcollection) from the Library of Congress to Mason and for establishing the Women’s Studies department. However, in 1970, administrators at George Mason College sought to remove her. Like many other college professors of the era, Brown was critical of the administration, particularly around issues of race and gender. The administration unconvincingly justified the decision to dismiss her under the college’s anti-nepotism policy. They claimed that Brown taught at Mason because of her marriage to an Associate Dean, even though she was hired two years before she was married. Lorraine Brown’s early teaching career at Mason reveals the important issue of academic freedom and institutional discrimination based on race and gender in the late 1960s and early 1970s. Analyzing this lesser known history contextualizes the different constraints Brown and other professors faced during this time, reframing Brown's career and achievements at Mason as all the more impressive and important.
 
