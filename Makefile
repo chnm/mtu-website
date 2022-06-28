@@ -11,6 +11,11 @@ preview :
 	@echo "Serving the preview site with Hugo ..."
 	hugo serve --buildDrafts --buildFuture --disableFastRender 
 
+build-css :
+	@echo "Building the CSS ..."
+	npx tailwindcss -i ./assets/css/app.scss -o ./assets/css/app.css
+	@echo "Finished compiling CSS."
+
 build-prod :
 	@echo "\nBuilding the site ..."
 	npx tailwindcss -i ./assets/css/app.scss -o ./assets/css/app.css
