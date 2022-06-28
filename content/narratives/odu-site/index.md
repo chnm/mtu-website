@@ -17,7 +17,7 @@ defaultZoom: 15
 
 By the 1920s, it was said that Norfolk was the largest city in the English-speaking world without an institute of higher education. While the <span class="notation" data-id="1" data-zoom="17" data-lat="37.270452" data-lon="-76.708278">College of William & Mary</span> established extension courses in Norfolk in 1919, mostly for local teachers, it was competition from another school that spurred William & Mary to create a division in Norfolk. There were several attempts to <span class="notation" data-id="1" data-zoom="12" data-lat="36.896577" data-lon="-76.262712">establish a college in Norfolk,</span> but it wasn't until the late 1920s that they started to take shape. Robert Morton Hughes, Sr., a prominent Norfolk attorney, and A. H. Foreman, a lawyer and member of the Norfolk School Board, were two of the strongest proponents of a college in Norfolk. In early 1930, Atlantic University, financed by bankers from New York City, was being established in Virginia Beach. Hughes and Foreman saw this as a threat to William & Mary's interest in the South Hampton Roads region, as Hughes wrote to William & Mary’s president, J.A.C. Chandler, to "act promptly on your junior college plan if you intend to act at all."[^1]
 
-[^1]: Sweeney, James R. *[Old Dominion University: A Half Century of Service](digitalcommons.odu.edu)*, (Norfolk, Va.: Old Dominion University, 1980).
+[^1]: Sweeney, James R. *[Old Dominion University: A Half Century of Service](https://digitalcommons.odu.edu/history_books/1/)*, (Norfolk, Va.: Old Dominion University, 1980).
 
 {{< figure id="chandler" image="Dr_Julian_A_C_Chandler_circa1930-1939.jpg" caption="Figure 1. Dr. Julian A. C. Chandler, ca. 1930-1939." >}}
 
