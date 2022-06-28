@@ -26,7 +26,7 @@ Leggings hot chicken brunch cornhole YOLO farm-to-table master cleanse forage vi
         step="1" 
         value="0"
         oninput="document.getElementById('year-range').innerHTML = this.value;"
-        class="w-3/4 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
+        class="w-3/4 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
 </div>
 <div class="flex justify-center rounded-lg text-lg mb-4" role="group">
     <button id="playTimeline" class="bg-sky-600 text-white active:bg-sky-600 hover:bg-sky-800 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Play</button>
