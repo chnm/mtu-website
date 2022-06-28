@@ -10,8 +10,8 @@ styles: viz/slave-sales/style.css
 layout: narratives
 thumbnail: GunstonLedger-Nov-1963 copy.png
 thumbdesc: "A newspaper article about an offensive “slave day” fundraiser at Mason."
-startingLon: -77.312316
-startingLat: 38.832571 
+startingLon: -77.308153
+startingLat: 38.830740 
 defaultZoom: 17
 ---
 In the fall of 1968, an article in the *Gunston Ledger*, a student newspaper at George Mason College, began: “If you saw some weird-looking people wandering around last Friday, don’t worry that you’re losing your mind, because…[it] was Slave Day.”[^1] Just a few years earlier, in 1965, a similar article from Old Dominion College’s student newspaper began: “Slavery returned to ODC Dec. 7 in the form of the ODC Young Democratic Club’s Second Annual Slave Sale.”[^2]
