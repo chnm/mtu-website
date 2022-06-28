@@ -82,3 +82,7 @@ In the end, Brown’s contract was renewed while her husband Stephen Brown stepp
 {{< figure id="img6" image="Broadside-LB7.png" caption="Figure 6. Professor Brown holds up a poster in 1974 from the Federal Theater Project collection. *Broadside Photograph Collection*, September 12, 1974.">}}
 
 {{< figure id="img6" image="Broadside-LB-Conner-Sundell1.png" caption="Figure 7. Professor Brown, with English Professor John O’Connor and Michael Sundell, looking through archival material related to the Federal Theater Project. *Broadside Photograph Collection*, September 12, 1974.">}}
+
+
+
+*Laura Brannan Fretwell is a graduate research assistant at the Roy Rosenzweig Center for History and New Media and a History PhD candidate at George Mason University. She researches race, gender, and memory in the American South.*

@@ -90,3 +90,7 @@ Historically, “slave auctions” sold enslaved people to white enslavers, whic
 
 
 *Thank you to Dr. Yevette Richards Jordan, Associate Professor of History, Women and Gender Studies, and African and African American Studies at George Mason University, for consultation and collaboration on this essay.*
+
+
+
+*Laura Brannan Fretwell is a graduate research assistant at the Roy Rosenzweig Center for History and New Media and a History PhD candidate at George Mason University. She researches race, gender, and memory in the American South.*
