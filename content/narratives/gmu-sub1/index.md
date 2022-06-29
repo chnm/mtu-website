@@ -77,7 +77,7 @@ The outdoor events that took place outside SUB 1 showcased a different kind of c
 
 {{< figure id="img13" image="religiousrally.png" caption="Figure 13. A group of students gather outside SUB 1 for a religious rally. George Mason University Broadside Photograph Collection, George Mason University Libraries Special Collections & Archives, Box 19, Page 24, Frame 25, October 12, 1979." >}}
 
-{{< figure id="img14" image="childcare.png" caption="Figure 14. Children holding "Say Day Care Center" signs outside SUB 1. George Mason University Broadside Photograph Collection, George Mason University Libraries Special Collections & Archives, Box 18, Page 36, Frame 3 A,  April 11, 1979." >}}
+{{< figure id="img14" image="childcare.png" caption="Figure 14. Children holding \"Say Day Care Center\" signs outside SUB 1. George Mason University Broadside Photograph Collection, George Mason University Libraries Special Collections & Archives, Box 18, Page 36, Frame 3 A,  April 11, 1979." >}}
 
 {{< figure id="img15" image="outsidelounge.png" caption="Figure 15. Students hanging out in the outside lounge area of SUB 1. George Mason University Broadside Photograph Collection, George Mason University Libraries Special Collections & Archives, Box 9, Page 6, Frame 28, September 1, 1974." >}}
 
