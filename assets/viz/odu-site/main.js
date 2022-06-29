@@ -3,7 +3,7 @@
 // import mapboxgl from 'mapbox-gl'
 
 mapboxgl.accessToken =
-  "pk.eyJ1IjoiaGVwcGxlcmoiLCJhIjoiMjNqTEVBNCJ9.pGqKqkUDlcFmKMPeoARwkg";
+  "pk.eyJ1IjoiaGVwcGxlcmoiLCJhIjoiY2w0enp6dDljM2RmcjNicWM3cmw3ajMwNiJ9.Pchp6cBZnn8qHIyKx80MTA";
 
 const map = new mapboxgl.Map({
   container: "visualization",
