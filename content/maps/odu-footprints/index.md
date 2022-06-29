@@ -3,7 +3,7 @@ title: "Building Footprints of Old Dominion University"
 date: 2022-06-09
 updated: 2022-06-09
 author: "Jason Heppler"
-abstract: "A piece of abstract text..."
+abstract: "This map displays the footprints of buildings on the Old Dominion University campus from its founding to the present day."
 script: maps/odu-footprints/main.js
 styles: maps/odu-footprints/style.css
 layout: maps
