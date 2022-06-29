@@ -10,9 +10,9 @@ styles: viz/gmu-lorraine-brown/style.css
 layout: narratives
 thumbnail: Broadside-LB-cropped.png
 thumbdesc: "A portrait in 1974 of Lorraine Brown, Professor of English at Mason."
-startingLon: -77.312316
-startingLat: 38.832571  
-defaultZoom: 17
+startingLon: -77.313740
+startingLat: 38.831826 
+defaultZoom: 14
 ---
 Today, Dr. Lorraine Brown, who was a professor in George Mason’s English department for over 42 years, is lauded as an [early founder of the school](https://chss.gmu.edu/articles/2287). She is mostly remembered for bringing the historic treasure of the [Federal Theater Project collection](http://ahistoryofmason.gmu.edu/exhibits/show/independence/contents/ftpcollection) from the Library of Congress to Mason and for establishing the Women’s Studies department. However, in 1970, administrators at George Mason College sought to remove her. Like many other college professors of the era, Brown was critical of the administration, particularly around issues of race and gender. The administration unconvincingly justified the decision to dismiss her under the college’s anti-nepotism policy. They claimed that Brown taught at Mason because of her marriage to an Associate Dean, even though she was hired two years before she was married. Lorraine Brown’s early teaching career at Mason reveals the important issue of academic freedom and institutional discrimination based on race and gender in the late 1960s and early 1970s. Analyzing this lesser known history contextualizes the different constraints Brown and other professors faced during this time, reframing Brown's career and achievements at Mason as all the more impressive and important.
 
@@ -48,7 +48,7 @@ Faculty and students not only protested the administration’s silence on Vietna
 
 In a town hall meeting on campus in May 1970 about the three faculty removals, Professor Brown asked Chancellor Thompson if she was dismissed because of her recent attempt to bring Upward Bound to campus and because of the self-study committee she established, both of which criticized the administration’s policies around race.[^5] Upward Bound was a federal program through the Department of Health, Education, and Welfare that helped disadvantaged students finish high school in a six-week program sponsored by local colleges. Brown was on the committee to bring the program to Mason’s campus in 1968, but they received pushback from Chancellor Thompson, which caused the program to ultimately not be established on campus. In 1970, Brown published an op-ed with the rest of the committee in the student newspaper Broadside criticizing Thompson’s unwillingness to start the program. They implied he did not want the program because most of the students who attended Upward Bound programs were African American students: “the fact that most of the students would be Negro may or may not have anything to do with the Chancellor’s reluctance.” Two days later, Thompson notified Brown about the college’s anti-nepotism policy and her subsequent dismissal.
 
-{{< figure id="img3" image="R0128B03_1970-03-17" caption="Figure 3. An op-ed published by Brown and the rest of the Upward Bound committee criticizing Chancellor Thompson’s reluctance to establish the program on campus. *Broadside*, March 17, 1970." >}}
+{{< figure id="img3" image="R0128B03_1970-03-17.jpg" caption="Figure 3. An op-ed published by Brown and the rest of the Upward Bound committee criticizing Chancellor Thompson’s reluctance to establish the program on campus. *Broadside*, March 17, 1970." >}}
 
 [^5]: *Broadside*, May 12, 1970.
 
@@ -67,7 +67,7 @@ Professor Brown’s contract was renewed by the fall semester in 1970, possibly 
 
 The fact that Brown served on the board of AAUP, a national organization built to protect the rights of faculty, most likely helped Mason’s  Committee on Academic Freedom understand that the anti-nepotism policy was really an excuse to stifle Brown’s political activism on campus. The large-scale protest of Mason students also presumably helped Brown’s case. Shortly after news of Brown’s dismissal went public, a petition calling to renew Brown’s contract was signed by 740 students and delivered to administrators at both UVA and Mason.[^8] There were also numerous op-eds posted in Broadside by students who were upset with the administration’s attempt to remove Brown.
 
-{{< figure id="img5" image="R0128B03_1970-04-14" caption="Figure 5. An excerpt of an op-ed published by a student, signed \"feminist,\" stating that the anti-nepotism policy was unfair to Professor Brown. *Broadside*, April 14, 1970.">}}
+{{< figure id="img5" image="R0128B03_1970-04-14.jpg" caption="Figure 5. An excerpt of an op-ed published by a student, signed \"feminist,\" stating that the anti-nepotism policy was unfair to Professor Brown. *Broadside*, April 14, 1970.">}}
 
 [^8]: *Broadside*, March 17, 1970.
 
@@ -80,3 +80,5 @@ In the end, Brown’s contract was renewed while her husband Stephen Brown stepp
 {{< figure id="img6" image="Broadside-LB7.png" caption="Figure 6. Professor Brown holds up a poster in 1974 from the Federal Theater Project collection. *Broadside Photograph Collection*, September 12, 1974.">}}
 
 {{< figure id="img6" image="Broadside-LB-Conner-Sundell1.png" caption="Figure 7. Professor Brown, with English Professor John O’Connor and Michael Sundell, looking through archival material related to the Federal Theater Project. *Broadside Photograph Collection*, September 12, 1974.">}}
+
+*Laura Brannan Fretwell is a graduate research assistant at the Roy Rosenzweig Center for History and New Media and a History PhD candidate at George Mason University. She researches race, gender, and memory in the American South.*

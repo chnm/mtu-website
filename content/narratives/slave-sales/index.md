@@ -10,9 +10,9 @@ styles: viz/slave-sales/style.css
 layout: narratives
 thumbnail: GunstonLedger-Nov-1963 copy.png
 thumbdesc: "A newspaper article about an offensive “slave day” fundraiser at Mason."
-startingLon: -77.308153
-startingLat: 38.830740 
-defaultZoom: 17
+startingLon: -77.313740
+startingLat: 38.831826 
+defaultZoom: 14
 ---
 In the fall of 1968, an article in the *Gunston Ledger*, a student newspaper at George Mason College, began: “If you saw some weird-looking people wandering around last Friday, don’t worry that you’re losing your mind, because…[it] was Slave Day.”[^1] Just a few years earlier, in 1965, a similar article from Old Dominion College’s student newspaper began: “Slavery returned to ODC Dec. 7 in the form of the ODC Young Democratic Club’s Second Annual Slave Sale.”[^2]
 
@@ -90,3 +90,7 @@ Historically, “slave auctions” sold enslaved people to white enslavers, whic
 
 
 *Thank you to Dr. Yevette Richards Jordan, Associate Professor of History, Women and Gender Studies, and African and African American Studies at George Mason University, for consultation and collaboration on this essay.*
+
+
+
+*Laura Brannan Fretwell is a graduate research assistant at the Roy Rosenzweig Center for History and New Media and a History PhD candidate at George Mason University. She researches race, gender, and memory in the American South.*
