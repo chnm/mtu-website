@@ -1,7 +1,7 @@
 languageCode: 'en-us'
-description: 'Mapping the University is...'
+description: 'Mapping the University is an interdisciplinary, collaborative research project funded by the 4VA consortium that will analyze Virginia campus histories using university archives, digital mapping, and aerial photographs.'
 title: 'Mapping the University'
-baseURL: 'https://mtu.rrchnm.org'
+baseURL: 'https://mappingtheuniversity.rrchnm.org/'
 
 permalinks:
   blog: "/:section/:slug/"
