@@ -3,7 +3,7 @@ title: "Building Footprints of George Mason University"
 date: 2022-05-31
 updated: 2022-05-31
 author: "Jason Heppler"
-abstract: "A piece of abstract text..."
+abstract: "This map displays the footprints of buildings on the George Mason University campus from its founding to the present day."
 script: maps/gmu-footprints/main.js
 styles: maps/gmu-footprints/style.css
 layout: maps
