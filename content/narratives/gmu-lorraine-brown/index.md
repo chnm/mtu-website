@@ -1,9 +1,9 @@
 ---
-title: Lorraine Brown: A Feminist Founder of George Mason 
+title: "Lorraine Brown: A Feminist Founder of George Mason"
 date: 2022-06-28
 updated: 2022-06-28
 author: "Laura Brannan Fretwell"
-abstract: "A lesser known history of one of Mason’s “feminist founders” and her campus activism in the late 1960s and early 1970s."
+abstract: "A lesser known history of one of Mason\'s \"feminist founders\" and her campus activism in the late 1960s and early 1970s."
 place: [George Mason University]
 script: viz/gmu-lorraine-brown/main.js
 styles: viz/gmu-lorraine-brown/style.css
@@ -16,7 +16,7 @@ defaultZoom: 17
 ---
 Today, Dr. Lorraine Brown, who was a professor in George Mason’s English department for over 42 years, is lauded as an [early founder of the school](https://chss.gmu.edu/articles/2287). She is mostly remembered for bringing the historic treasure of the [Federal Theater Project collection](http://ahistoryofmason.gmu.edu/exhibits/show/independence/contents/ftpcollection) from the Library of Congress to Mason and for establishing the Women’s Studies department. However, in 1970, administrators at George Mason College sought to remove her. Like many other college professors of the era, Brown was critical of the administration, particularly around issues of race and gender. The administration unconvincingly justified the decision to dismiss her under the college’s anti-nepotism policy. They claimed that Brown taught at Mason because of her marriage to an Associate Dean, even though she was hired two years before she was married. Lorraine Brown’s early teaching career at Mason reveals the important issue of academic freedom and institutional discrimination based on race and gender in the late 1960s and early 1970s. Analyzing this lesser known history contextualizes the different constraints Brown and other professors faced during this time, reframing Brown's career and achievements at Mason as all the more impressive and important.
 
-{{< figure id="img1" image="Broadside-LB1-full.png" caption="Figure 1. A portrait of Lorraine Brown, Professor of English, in 1974, four years after Mason’s administration sought to remove her. *Broadside Photograph Collection*, September 12, 1974." >}}
+{{< figure id="img1" image="Broadside-LB1-full.png" caption="Figure 1. A portrait of Lorraine Brown, Professor of English, in 1974, four years after Mason's administration sought to remove her. *Broadside Photograph Collection*, September 12, 1974." >}}
 
 Lorraine Brown began teaching in the English department at Mason in 1967, when she was still finishing her PhD at the University of Maryland. She convinced Mason’s administration to allow her to teach less than a full load—three classes instead of four—to balance teaching while finishing her dissertation. She also began her professorship as a single mother before she married Stephen J. Brown in 1969. He was also a Mason professor in the English department and served as an Associate Dean of the college from 1968 to 1970.[^1] Lorraine Brown was one of very few female faculty on campus amidst a largely male faculty-led college. 
 
@@ -28,8 +28,7 @@ One can only imagine how difficult it was for Brown to navigate issues of gender
 
 In early March of 1970, Brown received notice from Mason Chancellor Lorin Thompson that her appointment as an English professor would be terminated by June 30, 1971. The attempted removal was based on UVA’s anti-nepotism policy, which prohibited the hiring of a relative of an employee. Although Brown was already hired for two years as a professor before she married Stephen Brown, Thompson reported her teaching contract would still not be renewed and only UVA President Edgar Shannon had the authority to waive the policy at his discretion.
 
-{{< figure id="img2" image="Thompson-Brownletter.jpeg" caption="Figure 2. A letter from Chancellor Thompson to Lorraine Brown informing her that Mason’s Committee on Academic Freedom recommended waiving the anti-nepotism policy, but it was ultimately up to UVA President Shannon.
-Thompson to Brown correspondence, June 5, 1970. George Mason College General Records (Office of the Assistant Provost), University of Virginia Albert & Shirley Small Special Collections Library, Box 2, Folder GMC Faculty, General: 1971-1972." >}}
+{{< figure id="img2" image="Thompson-Brownletter.jpeg" caption="Figure 2. A letter from Chancellor Thompson to Lorraine Brown informing her that Mason's Committee on Academic Freedom recommended waiving the anti-nepotism policy, but it was ultimately up to UVA President Shannon. Thompson to Brown correspondence, June 5, 1970. George Mason College General Records (Office of the Assistant Provost), University of Virginia Albert & Shirley Small Special Collections Library, Box 2, Folder GMC Faculty, General: 1971-1972." >}}
 
 Brown was not the only professor dismissed around this time. During the same semester, the teaching contracts of Professors William Tsow, in the history department, and Joerg Mayer, in the math department, were investigated based on “possible infringements of academic freedom and tenure.”[^2] Mayer resigned as head of the math department because he was informed that department chairs and tenured faculty are not “allowed to criticize the administration.”[^3] Tsow was relieved of his position because he proposed to teach a few advanced courses on “20th century East Asia” during the height of the controversial Vietnam War, though Dean Krug reported Tsow was dismissed due to his failure to “meet requirements of his contract.”[^4]
 
@@ -64,12 +63,11 @@ In 1970, the Committee on Academic Freedom reported the administration was “co
 
 Professor Brown’s contract was renewed by the fall semester in 1970, possibly in part because she served on the local branch of the American Association of University Professors. A handwritten memo on June 8, 1970, most likely written by an administrator at UVA stated: “The only case [out of the three faculty dismissals] that is likely to cause any consternation is the case of Lorraine Brown. I envision continued pressure at GMC on this case - perhaps further pressures from AAUP. I suspect that President Shannon will be requested to make a decision in this case.”
 
-{{< figure id="img4" image="UVAmemo.jpeg" caption="Figure 4. A handwritten memo from UVA’s Provost Office anticipating that UVA would receive “continued pressure at GMC” and from AAUP for Professor Brown to stay at Mason. 
-Memo, June 8, 1970. George Mason College General Records (Office of the Assistant Provost, University of Virginia Albert & Shirley Small Special Collections Library, Box 2, Folder GMC Faculty, General: 1971-1972.">}}
+{{< figure id="img4" image="UVAmemo.jpeg" caption="Figure 4. A handwritten memo from UVA's Provost Office anticipating that UVA would receive \"continued pressure at GMC\" and from AAUP for Professor Brown to stay at Mason. Memo, June 8, 1970. George Mason College General Records (Office of the Assistant Provost, University of Virginia Albert & Shirley Small Special Collections Library, Box 2, Folder GMC Faculty, General: 1971-1972.">}}
 
 The fact that Brown served on the board of AAUP, a national organization built to protect the rights of faculty, most likely helped Mason’s  Committee on Academic Freedom understand that the anti-nepotism policy was really an excuse to stifle Brown’s political activism on campus. The large-scale protest of Mason students also presumably helped Brown’s case. Shortly after news of Brown’s dismissal went public, a petition calling to renew Brown’s contract was signed by 740 students and delivered to administrators at both UVA and Mason.[^8] There were also numerous op-eds posted in Broadside by students who were upset with the administration’s attempt to remove Brown.
 
-{{< figure id="img5" image="R0128B03_1970-04-14" caption="Figure 5. An excerpt of an op-ed published by a student, signed “feminist,” stating that the anti-nepotism policy was unfair to Professor Brown. *Broadside*, April 14, 1970.">}}
+{{< figure id="img5" image="R0128B03_1970-04-14" caption="Figure 5. An excerpt of an op-ed published by a student, signed \"feminist,\" stating that the anti-nepotism policy was unfair to Professor Brown. *Broadside*, April 14, 1970.">}}
 
 [^8]: *Broadside*, March 17, 1970.
 
