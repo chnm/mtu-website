@@ -4,7 +4,7 @@ date: 2022-06-28
 updated: 2022-06-28
 author: "Laura Brannan Fretwell"
 abstract: "A lesser known history of one of Mason\'s \"feminist founders\" and her campus activism in the late 1960s and early 1970s."
-place: [George Mason University]
+place: George Mason University
 script: viz/gmu-lorraine-brown/main.js
 styles: viz/gmu-lorraine-brown/style.css
 layout: narratives
