@@ -30,7 +30,14 @@
               </h2>
               <p class="text-gray-500 uppercase text-sm">by {{.Params.author}}</p>
               <p class="text-gray-500 mt-4">{{.Params.abstract}}</p>
-              <p class="text-xs font-sans font-semibold inline-block py-1 px-2 uppercase rounded text-sky-600 bg-sky-200 uppercase last:mr-0 mr-1">{{ .Params.place }}</p>
+
+            {{ if isset .Params "place" }}
+              {{ if(eq .Params.place "George Mason University") }}
+              <p class="text-xs font-sans font-semibold inline-block py-1 px-2 uppercase rounded text-green-600 bg-green-200 uppercase last:mr-0 mr-1">{{ .Params.place }}</p>
+              {{ else }}
+              <p class="text-xs font-sans font-semibold inline-block py-1 px-2 uppercase rounded text-blue-600 bg-blue-200 uppercase last:mr-0 mr-1">{{ .Params.place }}</p>
+              {{ end }}
+            {{ end}}
             </div>
           </div>
         </card>
