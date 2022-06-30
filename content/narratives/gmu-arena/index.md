@@ -52,3 +52,9 @@ Within the budget there are some interesting details that serve as both a time c
 The arena now stands as a pillar of family entertainment in the Northern Virginia Community and has intrinsically tied George Mason University to the area’s culture. A high point in recent memory would be the 2006 NCAA season which saw George Mason make a March Madness run all the way to the Final Four. Hopefully, the team can reach those heights again soon. 
 
 *Joseph Moore is an undergraduate history student and member of the class of 2023 at George Mason University who has lived in Fairfax his whole life. In addition to history, he is also studying film, media, and communication at GMU.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}

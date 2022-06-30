@@ -66,3 +66,9 @@ Even with all the hassle and problems the dorms faced, like many modern stories 
 [^7]: *Broadside*, Vol. 20, Number 9, October 24, 1977.
 
 *Catalina Mayer is an undergraduate history major at George Mason University who will receive a Bachelor of Arts in History in the summer of 2022. She also studies communication and hopes to continue her education in law school or graduate school.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}

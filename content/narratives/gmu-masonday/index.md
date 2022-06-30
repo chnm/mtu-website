@@ -116,3 +116,9 @@ Through the years, many events and traditions of Mason Day have come and gone. N
 {{< figure id="img14" image="masonday1988.png" caption="Figure 14. Aerial view of the Mason campus during the 1988 Mason Day. 1988 Yearbook, George Mason University Yearbook Collection, George Mason University Libraries Special Collections & Archives, Box 10, 1988." >}}
 
 *Catalina Mayer is an undergraduate history major at George Mason University who will receive a Bachelor of Arts in History in the summer of 2022. She also studies communication and hopes to continue her education in law school or graduate school.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}
