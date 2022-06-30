@@ -1,5 +1,5 @@
 ---
-title: "The Student Union Building (SUB 1): Expansion of Student Spaces on the George Mason Campus"
+title: "SUB 1, the Student Union Building: Expansion of Student Spaces on the George Mason Campus"
 date: 2022-06-09
 updated: 2022-06-09
 author: "Catalina Mayer"
