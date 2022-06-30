@@ -88,3 +88,9 @@ In 1978, one interesting memo between President Krug and the Vice President of B
 The SUB building is a central part of Mason and what the campus is today. For a long period it was the center of campus, placed right across from the library and next to the original four buildings. As the physical center of campus has changed, so has the role of the SUB 1 building. Even if it still holds some of the same services, such as food, a doctor's office and lounge area, it is no longer where the students congregate. Even though it does house a student favorite, Chick-fil-a, and some people go to this space, it is no longer the main student center on ca mpus. Even with this change, SUB 1 played an important role in altering the campus forever. After its construction,  students could eat on campus, stay on campus, and feel a connection to campus. While classes are an important part of education, one of the most significant ways to connect to a college is through social interaction and student activities. If Mason never built the SUB 1 building, what clubs would exist today on campus? Would the students have interacted at all? What lasting impression would be left by Mason?  SUB 1 was central to the creation of Mason’s campus culture and to building community relations in the Northern Virginia area as well, at least before the creation of student housing. It even leads to the question: would student housing have been possible without these services for students on campus? It is clear how important the SUB 1 building became to students on the early George Mason campus. 
 
 *Catalina Mayer is an undergraduate history major at George Mason University who will receive a Bachelor of Arts in History in the summer of 2022. She also studies communication and hopes to continue her education in law school or graduate school.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}

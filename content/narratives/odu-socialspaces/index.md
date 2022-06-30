@@ -36,3 +36,9 @@ The most well-known and longest-lasting beacon of student life on campus is the 
 The social spaces of both the past and the present have helped Old Dominion’s community grow, leaving lasting impressions. While Gray’s and Bud’s no longer exist, they were key social spaces in the early years of Old Dominion, providing the space for the community to grow, while also demonstrating the need for greater social spaces, leading to the construction of the Webb, which now serves as the center of life on campus. 
 
 *Steven Bookman has been the University Archivist at Old Dominion University (ODU) since 2015. Prior to coming to ODU, Steven was the University Archives Specialist at the College of William and Mary from 2007 to 2015.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}

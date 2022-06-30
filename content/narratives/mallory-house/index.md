@@ -62,3 +62,9 @@ The Mallory House incident remained largely unresolved, but it illustrates the s
 
 
 *Laura Brannan Fretwell is a graduate research assistant at the Roy Rosenzweig Center for History and New Media and a History PhD candidate at George Mason University. She researches race, gender, and memory in the American South.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}

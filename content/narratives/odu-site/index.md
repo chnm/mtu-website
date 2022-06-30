@@ -42,3 +42,9 @@ As a division of William & Mary, similar to today’s community college model, s
 {{< figure id="image5" image="SiteSelection-WMN-VPISign-1940s.jpg" caption="Figure 5. Norfolk Division of the College of William & Mary and Virginia Polytechnic Institute Sign, circa 1940-1949." >}}
 
 *Steven Bookman has been the University Archivist at Old Dominion University (ODU) since 2015. Prior to coming to ODU, Steven was the University Archives Specialist at the College of William and Mary from 2007 to 2015.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}

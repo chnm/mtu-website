@@ -1,4 +1,5 @@
 // site-wide JS 
+// --------------
 
 // display a random image as background cover image 
 const div = document.getElementById('cover-home');
@@ -6,28 +7,33 @@ const div = document.getElementById('cover-home');
 const images = {
     '1': {
         'src': 'img/home/AerialViewCampus-1949-05-20.jpg',
-        'citation': 'source',
-        'caption': 'Aerial View of George Mason University'
+        'citation': 'Old Dominion University Libraries',
+        'caption': 'Aerial view of Norfolk Division of the College of William and Mary (later ODU), 1949'
     },
     '2': {
         'src': 'img/home/AerialViewCampus-1964-03-17-2.jpg',
-        'citation': 'source',
-        'caption': 'Aerial View of l;akdfj'
+        'citation': 'Old Dominion University Libraries',
+        'caption': 'Aerial view of Old Dominion University campus, 1964'
     },
-    '1': {
+    '3': {
         'src': 'img/home/FXCI-AER-050-600_1960.png',
-        'citation': 'source',
-        'caption': 'Aerial View of l;ajds f;laskdjf al;sdkfj '
+        'citation': 'Virginia Room, Fairfax County Public Library',
+        'caption': 'Aerial view of Mason’s Fairfax campus, 1960'
     },
-    '1': {
+    '4': {
         'src': 'img/home/aerial2.png',
-        'citation': 'source',
-        'caption': 'Aerial View of l;kaj df;laskdfasdl;kfj '
+        'citation': 'Fairfax County',
+        'caption': "Aerial view of Mason's Fairfax campus, 1972"
     },
-    '1': {
+    '5': {
         'src': 'img/home/IMG_0937_1970.png',
-        'citation': 'source',
-        'caption': 'Aerial View of al;djf a;lkdsfj asdf'
+        'citation': 'Special Collections and Research Center, George Mason University',
+        'caption': "Aerial view of Mason's Fairfax campus, 1970"
+    },
+    '6': {
+        'src': 'img/home/fairfax1990.jpg',
+        'citation': 'Fairfax County',
+        'caption': "Aerial view of Mason's Fairfax campus, 1990"
     }
 }
 
@@ -43,4 +49,3 @@ div.style.backgroundRepeat = 'no-repeat';
 // apply the caption and source to the .cover-citation div
 const caption = document.getElementById('cover-citation');
 caption.innerHTML = `${images[randomImage].caption}. Image courtesy of ${images[randomImage].citation}.`;
-// caption.innerHTML = images[randomImage].caption;

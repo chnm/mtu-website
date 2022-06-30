@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
 html {
   @apply font-sans;
 }
@@ -9,16 +11,16 @@ html {
 /* Typography */
 
 a {
-  @apply text-sky-600 hover:text-sky-700 transition duration-300 ease-in-out;
+  @apply text-sky-600 transition duration-300 ease-in-out;
 }
 
 a:hover {
-  @apply text-sky-800;
+  @apply text-sky-400;
 }
 
 p {
   line-height: 1.5;
-  @apply font-serif text-lg mt-0 mb-4 leading-relaxed;
+  @apply font-sans text-lg mt-0 mb-4 leading-relaxed;
 }
 
 h2 {
@@ -43,11 +45,17 @@ h2 {
   clear:left;
 }
 
-/* Visualizations */
+/* Palette */ 
 
-/*#visualization {
-  @apply w-full h-screen;
-}*/
+.mason-green {
+  color: rgb(30, 98, 56);
+}
+
+.odu-blue {
+  color: #003057
+}
+
+/* Visualizations */
 
 label.timeline-label {
   display: block;
@@ -94,6 +102,14 @@ audio {
   cursor: pointer;
 }
 
+.narrative p {
+  @apply text-justify text-lg;
+}
+
+.narrative figcaption p {
+  @apply text-sm;
+}
+
 .narrative p:nth-child(3):first-letter {
   float: left;
   border-right: 2px solid #529Ecc;
@@ -106,7 +122,7 @@ audio {
 }
 
 blockquote {
-  @apply font-serif text-lg;
+  @apply text-lg;
   border-left: 4px solid #529Ecc;
   @apply ml-4;
   @apply pl-4;
@@ -121,7 +137,7 @@ blockquote {
 }
 
 .footnotes ol {
-    @apply list-decimal text-sm border-t-4 border-indigo-500 pt-4;
+    @apply list-decimal text-sm border-t-2 border-sky-700 pb-4 pt-6 mt-6;
 }
 
 .lightbox {

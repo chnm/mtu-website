@@ -1,0 +1,7 @@
+{{ $url := .Page.Permalink | absURL }}
+{{ $year := .Page.Params.date | dateFormat "2006" }}
+{{ $author := .Page.Params.author }}
+
+<blockquote>
+    {{ $author }}, "{{ .Page.Title }}," <em>Mapping the University</em>, Roy Rosenzweig Center for History and New Media, George Mason University ({{ $year }}): <{{ $url }}>.
+</blockquote>

@@ -62,3 +62,9 @@ Over her 24 seasons as coach, Wendy Larry amassed a 559-203 record, won 17 strai
 [^6]: Brydges, Maggie, et. al. *[Old Dominion University: From the Great Depression to the New Millenium](https://digitalcommons.odu.edu/oduhistory-bookshelf/2/)* (Norfolk, Va.: Office of Institutional Advancement, Old Dominion University, 2000).
 
 *Steven Bookman has been the University Archivist at Old Dominion University (ODU) since 2015. Prior to coming to ODU, Steven was the University Archives Specialist at the College of William and Mary from 2007 to 2015.*
+
+## Suggested citation
+
+Please use the following as a suggested citation:
+
+{{< author-citation >}}
