@@ -33,9 +33,9 @@
 
             {{ if isset .Params "place" }}
               {{ if(eq .Params.place "George Mason University") }}
-              <p class="text-xs font-sans font-semibold inline-block py-1 px-2 uppercase rounded mason-green bg-green-100 uppercase last:mr-0 mr-1">{{ .Params.place }}</p>
+              <p class="text-xs font-sans font-semibold inline-block py-1 px-2 rounded mason-green bg-green-100 uppercase last:mr-0 mr-1">{{ .Params.place }}</p>
               {{ else }}
-              <p class="text-xs font-sans font-semibold inline-block py-1 px-2 uppercase rounded odu-blue bg-blue-100 uppercase last:mr-0 mr-1">{{ .Params.place }}</p>
+              <p class="text-xs font-sans font-semibold inline-block py-1 px-2 rounded odu-blue bg-blue-100 uppercase last:mr-0 mr-1">{{ .Params.place }}</p>
               {{ end }}
             {{ end}}
             </div>
