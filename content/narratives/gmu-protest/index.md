@@ -51,7 +51,7 @@ However, Krug believed that it was the crimes Shea was accused and convicted of 
 
 Since Dr. Shea’s time, fellow Mason professors and students have continued to protest for what they believe in. Various organized protests have occurred on George Mason campuses for local and worldwide efforts. There is photographic evidence from the 1987 yearbook that there were protests that coincided with popular movements at the time, specifically Rock Against Racism and Fast for Life. Both protests spoke to worldwide issues that also tied to home. [Rock Against Racism](https://racismnoway.com.au/teaching-resources/rock-against-racism/) was a movement which originated in the United Kingdom following public acts of racism and xenophobia. Fast for Life was a nuclear disarmament movement. Both movements had global implications and protests on George Mason’s campus showcase how protesting can be a global activity.
 
-{{< figure id="img4" image="GMU Protest Thumbnail.jpg" caption="Figure 4.  Students sitting on the quad participating in a sit-in style protest against U.S. aid to Contra forces during the 80s.">}}
+{{< figure id="img4" image="GMU Protest Thumbnail.jpg" caption="Figure 4.  Students sitting on the quad participating in a sit-in style protest against U.S. aid to Contra forces during the 80s. *By George!* Yearbook, page 131, 1987.">}}
 
 {{< figure id="img5" image="Fig 2 Student Protest Thumbnail.jpg" caption="Figure 5.  Protest leader on George Mason's Fairfax campus. *By George!* Yearbook, page 130, 1987.">}}
 
