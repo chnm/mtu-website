@@ -66,11 +66,12 @@ map.on("style.load", () => {
     const year = yearSelect.valueAsNumber;
     // append -01-01 to the year to get the start date
     const yearStart = `${year}-01-01`;
+    const yearEnd = `${year}-12-31`;
 
-    // filter the geojson data to only include the buildings for the selected year and all previous years
     const queryFilter = [
       "all",
       ["<=", ["get", "START_DATE"], yearStart],
+      [">=", ["get", "END_DATE"], yearEnd],
     ];
     map.setFilter("footprints", queryFilter);
   });

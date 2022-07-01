@@ -72,6 +72,7 @@ map.on("style.load", () => {
     const queryFilter = [
       "all",
       ["<=", ["get", "START_DATE"], yearStart],
+      [">=", ["get", "END_DATE"], yearEnd],
     ];
     map.setFilter("footprints", queryFilter);
   });
