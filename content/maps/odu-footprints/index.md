@@ -16,12 +16,12 @@ This map displays the footprints of buildings on the Old Dominion University cam
 **Click Play to watch how the campus expanded over time, or drag the time slider to a certain year to see the buildings that existed on campus during that year. Click on a building to view its name and year of construction.**
 
 <div class="cell">
-    <label for="year-slider" id="year-range" class="timeline-label" style="font-size: 1.8rem;">1936-2021</label>
-    <label for="year-start" class="timeline-label float-left">1936</label>
+    <label for="year-slider" id="year-range" class="timeline-label" style="font-size: 1.8rem;">1930-2021</label>
+    <label for="year-start" class="timeline-label float-left">1930</label>
     <label for="year-end" class="timeline-label float-right">2021</label>
     <input id="year-slider"
         type="range" 
-        min="1936" 
+        min="1930" 
         max="2021"
         step="1" 
         value="0"

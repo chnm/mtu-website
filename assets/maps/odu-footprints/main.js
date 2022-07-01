@@ -13,9 +13,9 @@ map.scrollZoom.disable();
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
-// build a year array between 1936 and 2021
+// build a year array between 1930 and 2021
 const years = [];
-for (let i = 1936; i <= 2021; i++) {
+for (let i = 1930; i <= 2021; i++) {
   years.push(i);
 }
 
@@ -23,7 +23,7 @@ map.on("style.load", () => {
   // load geojson data
   map.addSource("odu", {
     type: "geojson",
-    data: "odu-footprints.geojson",
+    data: "odufootprints.geojson",
   });
 
   map.addLayer({
@@ -108,8 +108,8 @@ map.on("style.load", () => {
   resetTimeline.addEventListener("click", () => {
     clearInterval(timer);
     timer = null;
-    yearSelect.value = 1936;
-    document.getElementById('year-range').innerHTML = "1936-2021";
+    yearSelect.value = 1930;
+    document.getElementById('year-range').innerHTML = "1930-2021";
     playButton.innerHTML = "Play";
     // reset mapbox filters to show all buildings
     map.setFilter("footprints", ["all"]);
