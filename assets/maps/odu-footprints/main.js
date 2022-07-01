@@ -23,7 +23,7 @@ map.on("style.load", () => {
   // load geojson data
   map.addSource("odu", {
     type: "geojson",
-    data: "odufootprints.geojson",
+    data: "odu-footprints.geojson",
   });
 
   map.addLayer({
