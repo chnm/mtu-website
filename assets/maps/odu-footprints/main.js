@@ -41,7 +41,7 @@ map.on("style.load", () => {
   map.on('click', 'footprints', (e) => {
     new mapboxgl.Popup()
     .setLngLat(e.lngLat)
-    .setHTML(`<strong>${e.features[0].properties.namechange ? `${e.features[0].properties.namechange}</strong><br> Former name: ${e.features[0].properties.name}` : e.features[0].properties.name}</strong>
+    .setHTML(`<strong>${e.features[0].properties.namechange ? `${e.features[0].properties.namechange}</strong><br> Previously known as: ${e.features[0].properties.name}` : e.features[0].properties.name}</strong>
               <br/> Year constructed: ${e.features[0].properties.START_DATE.substring(0, 4)}`)
     .addTo(map);
     });
