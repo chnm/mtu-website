@@ -8,14 +8,14 @@
         <article class="md:container md:mx-auto px-4">
             <div class="medium-2 cell post-meta">
                 {{with .Params.date}}
-                <div class="date uppercase">{{.Format "2 Jan 2006"}}</div>
+                <div class="date">{{.Format "Monday, January 2, 2006"}}</div>
                 {{end}}
             </div>
             <div class="post-content w-9/12">
                 <h2>{{.Title}}</h2>
 
                 <span class="inline-flex items-baseline">
-                    <img src="{{.Params.avatar}}"
+                    <img src="{{ .Site.BaseURL }}avatars/{{.Params.avatar}}"
                          alt="{{.Params.author}}" 
                          class="self-center w-6 h-6 rounded-full mx-1"
                     />

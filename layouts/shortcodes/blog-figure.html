@@ -1,0 +1,11 @@
+<figure>
+    {{ $image := .Get "image" }}
+    {{ $alt_text := .Get "alt" }}
+    {{ $id := .Get "id" }}
+
+    <img src="{{ .Site.BaseURL }}blog-img/{{ $image }}" alt="{{ $alt_text }}"/>
+    
+    <figcaption>
+        <p>{{ .Get "caption" | markdownify }}</p>
+    </figcaption>
+</figure>
