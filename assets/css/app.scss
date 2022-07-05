@@ -55,6 +55,14 @@ h2 {
   color: #003057
 }
 
+.post-content figure {
+  @apply w-2/3 mx-auto;
+}
+
+.post-content figcaption p {
+  @apply text-sm text-center;
+}
+
 /* Visualizations */
 
 label.timeline-label {
