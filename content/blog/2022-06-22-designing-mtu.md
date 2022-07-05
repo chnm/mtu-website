@@ -1,9 +1,9 @@
 ---
 title: "Designing Mapping the University"
 author: Jason Heppler
-avatar: "https://api.lorem.space/image/face?w=1000&h=800" 
+avatar: "jheppler.jpeg" 
 date: 2022-06-22
-draft: false
+draft: true
 image: ""
 imagealt: ""
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec gravida dolor, sed euismod odio."
