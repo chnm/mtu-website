@@ -15,7 +15,7 @@ map.addControl(new mapboxgl.NavigationControl());
 
 // build a year array between 1930 and 2021
 const years = [];
-for (let i = 1930; i <= 2021; i++) {
+for (let i = 1930; i <= 2022; i++) {
   years.push(i);
 }
 
@@ -64,9 +64,8 @@ map.on("style.load", () => {
   const yearSelect = document.getElementById("year-slider");
   yearSelect.addEventListener("change", () => {
     const year = yearSelect.valueAsNumber;
-    // append -01-01 to the year to get the start date
-    const yearStart = `${year}-01-01`;
-    const yearEnd = `${year}-12-31`;
+    const yearStart = `${year}`;
+    const yearEnd = `${year}`;
 
     const queryFilter = [
       "all",
@@ -111,7 +110,7 @@ map.on("style.load", () => {
     clearInterval(timer);
     timer = null;
     yearSelect.value = 1930;
-    document.getElementById('year-range').innerHTML = "1930-2021";
+    document.getElementById('year-range').innerHTML = "1930-2022";
     playButton.innerHTML = "Play";
     // reset mapbox filters to show all buildings
     map.setFilter("footprints", ["all"]);
