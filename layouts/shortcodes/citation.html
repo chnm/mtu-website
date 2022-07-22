@@ -2,5 +2,5 @@
 {{ $year := .Page.Params.date | dateFormat "2006" }}
 
 <blockquote>
-    "{{ .Page.Title }}," <em>Mapping the University</em>, Roy Rosenzweig Center for History and New Media, George Mason University ({{ $year }}): <{{ $url }}>.
+    "{{ .Page.Title }}," <em><a href="{{ .Site.BaseURL }}">Mapping the University</a></em>, Roy Rosenzweig Center for History and New Media, George Mason University ({{ $year }}): <<a href="{{ $url }}">{{ $url }}</a>>.
 </blockquote>

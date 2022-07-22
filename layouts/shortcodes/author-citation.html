@@ -3,5 +3,5 @@
 {{ $author := .Page.Params.author }}
 
 <blockquote>
-    {{ $author }}, "{{ .Page.Title }}," <em>Mapping the University</em>, Roy Rosenzweig Center for History and New Media, George Mason University ({{ $year }}): <{{ $url }}>.
+    {{ $author }}, "{{ .Page.Title }}," <em><a href="{{ .Site.BaseURL }}">Mapping the University</a></em>, Roy Rosenzweig Center for History and New Media, George Mason University ({{ $year }}): <<a href="{{ $url }}">{{ $url }}</a>>.
 </blockquote>
