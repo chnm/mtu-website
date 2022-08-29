@@ -2,7 +2,7 @@
 title: "Monarch Way of Life: A Brief History of Social Spaces at Old Dominion University"
 date: 2022-06-16
 updated: 2022-06-16
-author: "Steven Bookman"
+author: "Anna Woloshin"
 abstract: "History of three social gathering spots at Old Dominion University."
 place: Old Dominion University
 script: viz/odu-site/main.js

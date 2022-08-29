@@ -2,7 +2,7 @@
 title: "Home Away from Home: An Early History of Residential Life at Old Dominion University"
 date: 2022-06-16
 updated: 2022-06-16
-author: "Steven Bookman"
+author: "Anna Woloshin"
 abstract: "History of Old Dominion’s first three campus residence halls."
 place: Old Dominion University
 script: viz/odu-site/main.js
