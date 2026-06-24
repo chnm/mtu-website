@@ -61,6 +61,14 @@ map.on("style.load", () => {
   // for the selected year and all previous years. In the geojson data, the year 
   // is stored in the START_DATE and END_DATE property.
   const yearSelect = document.getElementById("year-slider");
+
+  function updateSliderFill() {
+    const percent = (yearSelect.valueAsNumber - yearSelect.min) / (yearSelect.max - yearSelect.min) * 100;
+    yearSelect.style.setProperty('--fill-percent', percent + '%');
+  }
+
+  yearSelect.addEventListener("input", updateSliderFill);
+
   yearSelect.addEventListener("change", () => {
     const year = yearSelect.valueAsNumber;
     // append -01-01 to the year to get the start date
@@ -86,6 +94,7 @@ map.on("style.load", () => {
     const year = yearSelect.valueAsNumber;
     yearSelect.value = year + 1;
     yearSelect.dispatchEvent(new Event("change"));
+    updateSliderFill();
   }
 
   // to handle pausing, we either set timer to null (if paused) or set it to a timer
@@ -116,6 +125,7 @@ map.on("style.load", () => {
     playButton.innerHTML = "Play";
     // reset mapbox filters to show all buildings
     map.setFilter("footprints", ["all"]);
+    updateSliderFill();
   });
 });
 

@@ -3,8 +3,9 @@
 {{- partial "head.html" . -}}
 
 <body class="w-full h-full">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     {{- partial "header.html" . -}}
-    <main class="container mx-auto px-4 py-24">
+    <main id="main-content" class="container mx-auto px-4 py-24">
         <article class="md:container md:mx-auto px-4">
             <div class="medium-2 cell post-meta">
                 {{with .Params.date}}
@@ -12,7 +13,7 @@
                 {{end}}
             </div>
             <div class="post-content w-9/12">
-                <h2>{{.Title}}</h2>
+                <h1>{{.Title}}</h1>
 
                 <span class="inline-flex items-baseline">
                     <img src="{{ .Site.BaseURL }}/avatars/{{.Params.avatar}}"

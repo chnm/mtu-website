@@ -7,6 +7,8 @@ slug: about
 
 This project was created at the [Roy Rosenzweig Center for History and New Media (RRCHNM)](https://rrchnm.org/) at George Mason University in partnership with the [University Archives at Old Dominion University](https://www.odu.edu/library/special-collections). The project is supported by a [4-VA Collaborative Research Grant](https://4va.gmu.edu/grants/).
 
+Contact us at [chnm@gmu.edu](mailto:chnm@gmu.edu). 
+
 
 ## Project Team
 
@@ -27,6 +29,8 @@ Greta Swain, Graduate Research Assistant, RRCHNM
 Anna Woloshin, Undergraduate Research Assistant, ODU
 
 Vanessa Baez, Graduate Intern, Department of Geography and Geoinformation Science, GMU
+
+Savannah Scott, Graduate Research Assistant, RRCHNM
 
 
 ## Roy Rosenzweig Center for History and New Media Team

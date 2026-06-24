@@ -5,21 +5,27 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
 
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <div id="app" class="flex flex-col">
       {{- partial "header.html" . -}}
 
-        <div class="container w-3/4 mx-auto px-4 py-24">
+        <main id="main-content" class="container w-3/4 mx-auto px-4 py-24">
 
-          <h3 class="col-span-2 text-3xl sm:text-4xl lg:text-3xl xl:text-4xl text-slate-900">{{.Title}}</h3>
+          <h1 class="col-span-2 text-3xl sm:text-4xl lg:text-3xl xl:text-4xl text-slate-900">{{.Title}}</h1>
 
           {{ .Content }}
           
-          {{ $cssStyle := resources.Get .Params.styles | resources.Minify | resources.Fingerprint }}
-          <link rel="stylesheet" href="{{ $cssStyle.Permalink }}" integrity="{{ $cssStyle.Data.Integrity }}">
-          {{ $script := resources.Get .Params.script | resources.Minify | resources.Fingerprint }}
-          <script type="module" src="{{ $script.Permalink }}"></script>
+          {{ with resources.Get .Params.styles }}
+          {{ $cssStyle := . | resources.Minify | resources.Fingerprint }}
+          <link rel="stylesheet" href="{{ $cssStyle.RelPermalink }}" integrity="{{ $cssStyle.Data.Integrity }}">
+          {{ end }}
 
-      </div>
+        {{ with resources.Get .Params.script }}
+          {{ $script := . | resources.Minify | resources.Fingerprint }}
+          <script type="module" src="{{ $script.RelPermalink }}"></script>
+        {{ end }}
+
+      </main>
       {{- partial "footer.html" . -}}
     </div>
   </body>

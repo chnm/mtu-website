@@ -1,17 +1,31 @@
+{{- $title := .Title | default .Site.Title -}}
+{{- $description := or .Params.abstract .Description .Site.Params.description -}}
+{{- $image := "" -}}
+{{- if and .Params.image (ne .Params.image "") -}}
+  {{- $image = printf "%s%s" .Site.BaseURL .Params.image -}}
+{{- else if .Params.thumbnail -}}
+  {{- if eq .Type "maps" -}}
+    {{- $image = printf "%s%s" .Permalink .Params.thumbnail -}}
+  {{- else -}}
+    {{- $image = printf "%simg/viz/%s" .Site.BaseURL .Params.thumbnail -}}
+  {{- end -}}
+{{- end -}}
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{- with $image }}
+<meta property="og:image" content="{{ . }}" />
+{{- end }}
+
 <!-- Twitter card -->
-{{ if eq .Type "blog" }}
-<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}" />
 <meta name="twitter:site" content="@chnm" />
-<meta name="twitter:creator" content="@chnm" />
-<meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ .Params.abstract }}" />
-<meta name="twitter:image" content="{{ .Site.BaseURL}}{{ .Params.image }}" />
-{{ end }}
-{{ if eq .Type "visualizations" }}
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@chnm" />
-<meta name="twitter:creator" content="@chnm" />
-<meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ .Params.abstract }}" />
-<meta name="twitter:image" content="{{ .Site.BaseURL}}/img/viz/{{ .Params.thumbnail }}" />
-{{ end }}
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+{{- with $image }}
+<meta name="twitter:image" content="{{ . }}" />
+{{- end }}
