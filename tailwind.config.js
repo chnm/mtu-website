@@ -1,10 +1,10 @@
 module.exports = {
   content: [
-    '../../content/**/*.md', 
+    './content/**/*.md',
     './layouts/**/*.html',
     './partials/**/*.html',
     './static/**/*.js',
-    './assets/**/*.js}',
+    './assets/**/*.js',
   ],
   theme: {
     fontFamily: {

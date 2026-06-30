@@ -67,7 +67,10 @@ resetView.addEventListener("click", () => {
 const spans = document.querySelectorAll(".notation");
 
 spans.forEach((span) => {
-  span.addEventListener("click", (e) => {
+  span.setAttribute("tabindex", "0");
+  span.setAttribute("role", "button");
+
+  const flyToSpan = () => {
     const lat = span.dataset.lat;
     const lon = span.dataset.lon;
     const zoom = span.dataset.zoom;
@@ -75,5 +78,13 @@ spans.forEach((span) => {
       center: [lon, lat],
       zoom: zoom,
     });
+  };
+
+  span.addEventListener("click", flyToSpan);
+  span.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      flyToSpan();
+    }
   });
 });

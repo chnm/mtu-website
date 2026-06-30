@@ -7,6 +7,9 @@ draft: true
 image: ""
 imagealt: ""
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec gravida dolor, sed euismod odio."
+_build:
+  list: never
+  render: never
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec gravida dolor, sed euismod odio. Vivamus sed ipsum vitae massa vestibulum pretium molestie vitae magna. Vivamus venenatis dignissim imperdiet. Phasellus magna odio, semper sit amet quam vel, condimentum molestie nisi. Suspendisse et velit sit amet risus feugiat viverra eu at massa. Nullam tincidunt a nisi eu euismod. Donec mattis ipsum ut dolor aliquam molestie.

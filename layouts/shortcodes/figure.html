@@ -3,7 +3,7 @@
     {{ $alt_text := .Get "alt" }}
     {{ $id := .Get "id" }}
 
-    <a href="#{{ $id }}">
+    <a href="#{{ $id }}" aria-label="View full size: {{ $alt_text }}">
         <img src="{{ $image }}" alt="{{ $alt_text }}"/>
     </a>
     
@@ -11,7 +11,7 @@
         <p>{{ .Get "caption" | markdownify }}</p>
     </figcaption>
 
-    <a href="#" class="lightbox" id="{{ $id }}">
-        <span style="background-image: url('{{ $image }}')"></span>
+    <a href="#" class="lightbox" id="{{ $id }}" aria-label="Close image">
+        <img src="{{ $image }}" alt="{{ $alt_text }}">
     </a>
 </figure>

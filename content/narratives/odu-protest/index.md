@@ -25,13 +25,13 @@ Old Dominion’s chapter of SDS could accurately be described as relatively tame
 
 [^2]: Maggie Brydges et al., [*Old Dominion University from the Great Depression to the New Millenium, 1930-2000*.](https://digitalcommons.odu.edu/oduhistory-bookshelf/2/) (Norfolk, Va.: Office of Institutional Advancement, Old Dominion University, 2000).
 
-{{< figure id="image1" image="VietnamProtest-1967-03-03.jpg" caption="Figure 1. *Mace & Crown* Article about Dow Chemical Protest, March 3, 1967" >}}
+{{< figure id="image1" image="VietnamProtest-1967-03-03.jpg" alt="Mace and Crown newspaper page with the headline 'Vietniks Protest At ODC' alongside other campus news articles and advertisements." caption="Figure 1. *Mace & Crown* Article about Dow Chemical Protest, March 3, 1967" >}}
 
-{{< figure id="image2" image="oduphotos_5277_full.jpg" caption="Figure 2. SDS Protest Outside Webb Center, February 28th, 1967" >}}
+{{< figure id="image2" image="oduphotos_5277_full.jpg" alt="Two women carrying protest signs reading 'The Price of Napalm' while spectators watch from steps outside a campus building." caption="Figure 2. SDS Protest Outside Webb Center, February 28th, 1967" >}}
 
 The second Vietnam War protest that occurred on campus was the <span class="notation" data-id="1" data-zoom="18" data-lat="36.886501" data-lon="-76.305968">Vietnam Moratorium</span>. On October 15th, 1969, students and faculty of Old Dominion participated in the nationwide Day of Moratorium for Vietnam. The Vietnam moratorium was not an ODU-specific event, rather it was a nationwide event held on various college campuses in support of peace and the ending of the Vietnam War. However, in regard to ODU’s contribution, it was a day of contemplation and discussion about American involvement in Vietnam, as well as a day to voice opposition to that involvement in a peaceful manner. The Moratorium featured a variety of speeches related to the Vietnam War, all of which called for peace and an end to the war, or at least American involvement. As with similar anti-war protests, there were also pro-war demonstrations, but the Moratorium was a day of peaceful protest, with no recorded violence on ODU’s campus. 
 
-{{< figure id="image3" image="VietnamMoratorium-1969-10-17.jpg" caption="Figure 3. Front Page of *Mace & Crown* Discussing the Moratorium, October 17, 1969" >}}
+{{< figure id="image3" image="VietnamMoratorium-1969-10-17.jpg" alt="Front page of the Mace and Crown newspaper headlined 'The Moratorium: A Day of Reflection' with photographs of speakers and a large outdoor crowd." caption="Figure 3. Front Page of *Mace & Crown* Discussing the Moratorium, October 17, 1969" >}}
 
 The student strike on ODU’s campus in response to the Kent State incident was the last major student protest involving the Vietnam War. Demonstrating the more conservative leanings of ODU students of the era, the protests on campus were vastly different from those across the country. Whereas other college campuses saw buildings taken over by students and mass strikes, ODU’s students would not take as drastic measures in response to Kent State. Instead, in May 1970, the University saw a 24-hour peaceful vigil held by both students and staff on the mall in front of Webb Center. The Kent State massacre also inspired dialogue between the students, the administration, and faculty at ODU about the nature of the Vietnam War. 
 
@@ -41,9 +41,9 @@ The most important protest in ODU’s history occurred in early 1970, as a resul
 
 [^4]: James R. Sweeney, *Old Dominion University: A Half Century of Service,* (Norfolk, Va: Old Dominion University, 1980).
 
-{{< figure id="image4" image="oduphotos_10563_full.jpg" caption="Figure 4. Save ODU Homecoming Parade on Hampton Boulevard, 1970" >}}
+{{< figure id="image4" image="oduphotos_10563_full.jpg" alt="Students riding in a Volkswagen Beetle and marching along a boulevard holding 'Save ODU' signs during a homecoming parade." caption="Figure 4. Save ODU Homecoming Parade on Hampton Boulevard, 1970" >}}
 
-{{< figure id="image5" image="SaveODU-1970-02-20.jpg" caption="Figure 5. *Mace & Crown* Front Page Article on the “Save ODU” Campaign, February 26, 1970" >}}
+{{< figure id="image5" image="SaveODU-1970-02-20.jpg" alt="Front page of the Mace and Crown newspaper headlined 'SAVE campaign grows, citizen support mounts' with photographs of student rallies and demonstrations." caption="Figure 5. *Mace & Crown* Front Page Article on the “Save ODU” Campaign, February 26, 1970" >}}
 
 While there would be a variety of small protests on campus, as well as a long-standing debate over freedom of speech and censorship, ODU would not see any other major protests until the late 1970s. In 1979, the Committee against Racism (CAR), an organization that sought to combat racism both on campus and at large, would participate in a counter-protest in front of a Ku Klux Klan rally. CAR was viewed as a radical group by some on Old Dominion’s campus and was at one point criticized by a letter sent into the Mace & Crown, ODU’s student newspaper, which claimed that the group’s vehement protests to the Klan (pictured below) were on par with the Klan’s racist rhetoric. CAR exemplified  the new wave of protests against racism in the United States, as well as the rising protests against the Klan’s resurgence throughout the country. While CAR’s major protest against the Klan were not held on campus, but instead in nearby <span class="notation" data-id="1" data-zoom="17" data-lat="36.835667" data-lon="-75.971621">Virginia Beach,</span> the protest demonstrated Old Dominion’s connections with the surrounding community. 
 

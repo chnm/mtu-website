@@ -1,5 +1,5 @@
 <header>
-  <nav class="bg-sky-600 flex justify-between px-10 items-center py-6">
+  <nav class="bg-[#007cbc] flex flex-wrap justify-between px-6 md:px-10 items-center py-4 md:py-6" aria-label="Main navigation">
     <div class="flex items-center space-x-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -15,15 +15,21 @@
           d="m85 217l150 82l149-82v86l-149 81l-150-81v-86zM235 0l234 128v171h-42V151L235 256L0 128z"
         />
       </svg>
-      <h1 class="font-bold text-xl cursor-pointer">
-        <a class="text-white hover:text-slate-300" href="{{ .Site.BaseURL }}">Mapping the University</a>
-      </h1>
+      <span class="font-bold text-xl cursor-pointer">
+        <a class="text-white hover:text-slate-300" href="/">Mapping the University</a>
+      </span>
     </div>
-    <div class="flex items-center space-x-8 font-bold">
-      <a href="{{ .Site.BaseURL }}/narratives" class="cursor-pointer text-lg text-white hover:text-slate-300">Narratives</a>
-      <a href="{{ .Site.BaseURL }}/maps" class="cursor-pointer text-lg text-white hover:text-slate-300">Maps</a>
-      <a href="{{ .Site.BaseURL }}/blog" class="cursor-pointer text-lg text-white hover:text-slate-300">Blog</a>
-      <a href="{{ .Site.BaseURL }}/about" class="cursor-pointer text-lg text-white hover:text-slate-300">About</a>
+    <button id="nav-toggle" type="button" class="md:hidden text-white focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#007cbc] rounded p-1" aria-expanded="false" aria-controls="nav-menu">
+      <span class="sr-only">Open menu</span>
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+    <div id="nav-menu" class="hidden w-full md:flex md:w-auto md:items-center md:space-x-8 font-bold">
+      <a href="/narratives" class="block py-2 md:py-0 cursor-pointer text-lg text-white hover:text-slate-300">Narratives</a>
+      <a href="/maps" class="block py-2 md:py-0 cursor-pointer text-lg text-white hover:text-slate-300">Maps</a>
+      <a href="/blog" class="block py-2 md:py-0 cursor-pointer text-lg text-white hover:text-slate-300">Blog</a>
+      <a href="/about" class="block py-2 md:py-0 cursor-pointer text-lg text-white hover:text-slate-300">About</a>
     </div>
   </nav>
 </header>

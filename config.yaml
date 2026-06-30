@@ -7,6 +7,9 @@ permalinks:
   blog: "/:section/:slug/"
   page: "/:slug/"
 
+params:
+  description: 'Mapping the University is an interdisciplinary, collaborative research project funded by the 4VA consortium that will analyze Virginia campus histories using university archives, digital mapping, and aerial photographs.'
+
 taxonomies: false
 pluralizelisttitles: false
 

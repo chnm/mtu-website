@@ -8,7 +8,7 @@ script: maps/odu-footprints/main.js
 styles: maps/odu-footprints/style.css
 layout: maps
 thumbnail: odu_footprints.png
-thumbdesc: "A screenshot showing..."
+thumbdesc: "A screenshot showing the building footprints of Old Domoinion campus."
 ---
 
 This map displays the footprints of buildings on the Old Dominion University campus from its founding to the present day. It provides a visualization of the gradual expansion of the campus over time. 
@@ -28,9 +28,9 @@ This map displays the footprints of buildings on the Old Dominion University cam
         oninput="document.getElementById('year-range').innerHTML = this.value;"
         class="w-3/4 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
 </div>
-<div class="flex justify-center rounded-lg text-lg mb-4" role="group">
-    <button id="playTimeline" class="bg-sky-600 text-white active:bg-sky-800 hover:bg-sky-800 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Play</button>
-    <button id="resetTimeline" class="bg-sky-600 text-white active:bg-sky-800 hover:bg-sky-800 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 inline-block" type="button">Reset</button>
+<div class="flex justify-start rounded-lg text-lg mb-4" role="group">
+    <button id="playTimeline" class="bg-[#007cbc] text-white active:bg-[#005a8a] hover:bg-[#005a8a] font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md focus-visible:ring-2 focus-visible:ring-[#005a8a] focus-visible:ring-offset-2 mr-1 mb-1 ease-linear transition-all duration-150" type="button">Play</button>
+    <button id="resetTimeline" class="bg-[#007cbc] text-white active:bg-[#005a8a] hover:bg-[#005a8a] font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md focus-visible:ring-2 focus-visible:ring-[#005a8a] focus-visible:ring-offset-2 mr-1 mb-1 ease-linear transition-all duration-150 inline-block" type="button">Reset</button>
 </div>
 
 <div id="visualization" style="height:500px; width:100%; margin-bottom: 2em;"></div>

@@ -3,23 +3,25 @@
   {{- partial "head.html" . -}}
 
   <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     {{- partial "header.html" . -}}
-    <main class="container mx-auto px-4 py-24">
+    <main id="main-content" class="container mx-auto px-4 py-24">
 
-      <h2>{{ .Page.Title }}</h2>
+      <h1>{{ .Page.Title }}</h1>
 
       {{ .Content }}
 
       <div class="h-full flex flex-col gap-5 items-left bg-white">
         {{ range .Pages.ByParam "author" }}
         <!-- Card 1 -->
-        <card class="w-[40rem] py-7 px-5">
+        <article class="w-[40rem] py-7 px-5">
           <div class="grid grid-cols-6 gap-3">
             <!-- thumbnail -->
             <div class="col-span-2 pt-8">
               <img
                 src="{{ .Permalink }}/{{.Params.thumbnail}}"
                 title="{{.Params.thumbdesc}}"
+                alt="{{.Params.thumbdesc}}"
               />
             </div>
 
@@ -40,7 +42,7 @@
             {{ end}}
             </div>
           </div>
-        </card>
+        </article>
         <hr />
         {{end}}
       </div>
