@@ -7,7 +7,7 @@ draft: true
 image: ""
 imagealt: ""
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec gravida dolor, sed euismod odio."
-_build:
+build:
   list: never
   render: never
 ---
