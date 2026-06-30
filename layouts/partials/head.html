@@ -13,7 +13,9 @@
     {{ end}}
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC:600%7CCormorant:700%7CQuattrocento+Sans&display=swap" rel="stylesheet" />
     
-    {{ $styles := resources.Get "css/app.scss" | toCSS | css.PostCSS }}
+    {{/* app.css is the already-compiled Tailwind output (committed). Served as-is
+        so the build needs no Node/PostCSS toolchain. */}}
+    {{ $styles := resources.Get "css/app.css" }}
     {{ if hugo.IsServer }}
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
     {{ else }}
@@ -21,7 +23,7 @@
       <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
     {{ end }}
     {{ $javascript := resources.Get "js/index.js" }}
-   {{ if hugo.IsServer }}
+    {{ if hugo.IsServer }}
       <script src="{{ $javascript.RelPermalink }}" type="module"></script>
     {{ else }}
       {{ $javascript := $javascript | minify | fingerprint | resources.PostProcess }}
